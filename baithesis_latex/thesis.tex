@@ -1,0 +1,102 @@
+\documentclass[a4paper, 12pt, twoside]{report}
+
+
+%%% Language
+\usepackage[english]{babel}
+%\usepackage[ngerman]{babel}
+
+
+%%% Encoding
+\usepackage[latin1]{inputenc}   % Linux / UNIX
+% \usepackage[ansinew]{inputenc}  % Windows
+% \usepackage[utf8]{inputenc}     % UTF8
+
+
+%%% Packages (add new as needed)
+\usepackage{graphicx}           % include graphics
+\usepackage{amsmath}            % nice equations
+\usepackage{url}                % URLs
+\usepackage{natbib}             % author-year bibliography style
+\usepackage{baithesis}          % BAI thesis
+% \usepackage{hyperref}           % PDF links
+% \usepackage{subfig}             % Subfigures (a), (b), etc
+% \usepackage{nomencl}            % Nomenclature
+
+%%% Meta data
+\author{Jan Nowak}
+\title{Master's Thesis Template at Bio-Inspired Information Processing}
+\date{\today}
+%\degree{Bachelorarbeit}
+\supervisors{Prof.\ Dr.-Ing.\ Werner Hemmert\\
+  Dipl.-Ing.\ Marek Rudnicki}
+\logo{bai-tum}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+
+%%% Title page
+\pagenumbering{roman}
+\maketitle{}
+
+
+%%% Abstract
+\begin{abstract}
+  Write your abstract here or use \textbackslash{}input\{\} command.
+
+  Testing umlauts: הצüßִÿ
+\end{abstract}
+\cleardoublepage{}
+
+
+%%% Acknowledgments (optional)
+\begin{acknowledgments}
+\input{example/acknowledgments}
+\end{acknowledgments}
+
+
+%%% Nomenclature (optional)
+%%% Recommended to use: nomencl.sty
+%%% Otherwise:
+% \chapter*{Nomenclature}
+% \input{example/abbrevs}
+
+
+%%% Table of Contents
+\cleardoublepage{}
+\tableofcontents{}
+\cleardoublepage{}
+\pagenumbering{arabic}
+
+
+%%% Chapters
+\include{example/chapter}
+
+
+%%% Appendix
+\appendix{}
+\include{example/appendix}
+
+
+%%% Lists
+\listoffigures{}
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoftables{}
+\addcontentsline{toc}{chapter}{\listtablename}
+
+
+%%% Bibliography
+\bibliographystyle{apalike}
+\bibliography{example/bibl}
+\addcontentsline{toc}{chapter}{\refname}
+\cleardoublepage{}
+
+
+%%% Erklaerung der Selbststaendigkeit
+\erklaerung{}
+
+
+\end{document}

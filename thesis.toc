@@ -1,0 +1,16 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Motivation}{1}% 
+\contentsline {chapter}{\numberline {2}Introduction}{3}% 
+\contentsline {chapter}{\numberline {3}Related Work}{4}% 
+\contentsline {chapter}{\numberline {4}Methods}{5}% 
+\contentsline {section}{\numberline {4.1}Study Participants}{5}% 
+\contentsline {section}{\numberline {4.2}Probe Design}{5}% 
+\contentsline {section}{\numberline {4.3}Audio Stimuli}{6}% 
+\contentsline {section}{\numberline {4.4}fNIRS Setup}{6}% 
+\contentsline {section}{\numberline {4.5}Data preprocession}{6}% 
+\contentsline {chapter}{\numberline {5}Results}{7}% 
+\contentsline {chapter}{\numberline {6}Discussion}{8}% 
+\contentsline {chapter}{\numberline {7}Future prospectives}{9}% 
+\contentsline {chapter}{List of Figures}{10}% 
+\contentsline {chapter}{List of Tables}{11}% 
+\contentsline {chapter}{References}{12}% 
