@@ -81,69 +81,12 @@ Thanks people!
 %%% Chapters
 %\include{example/chapter}
 
-\chapter{Motivation}
-This research is aimed for better understanding of the brain activities when the subjects are exposed to different audio stimuli with the help of fNIRS measurement.
-
-In the field of neuro-imaging, although fMRI is widely used and provides excellent (spatial) resolution, it still has many limitations, especially when it comes to hearing research. First of all, MRI rooms are noisy, which makes it difficult to control the audio stimulation desired due to inevitable environmental noises. In addition, fMRI scans are done in a magnetic field. It has not yet been proved that pregnant women and infants can be safely exposed to an external magnetic field in the MRI room. For people with hearing disabilities, more specifically cochlear implant patients, going into a MRI room would not be ideal, either. Although there are already cochlear implants that can be worn to a magnetic field, it is still generally not suggested to wear a piece of metal in a MRI room.
-
-fNIRS,  short for functional near-infrared spectroscopy. With fNIRS, we can measure brain activity by using near-infrared light to estimate cortical hemodynamic activity which occur in response to neural activity. It is non-invasive and risk-free. The fNIRS device is portable and works silently. With the cap secured on the head, it is also more resilient to motion artifacts. All these makes it ideal for hearing researches. However, it is not yet commonly used in clinical diagnostics due to the lack of understanding of the expected brain activities measured with fNIRS. Therefore, in this research, we'd like to perform some fNIRS measurement and analyse the fNRIS data under different experiment conditions.
-
-If fNIRS can provide more meaningful data and be more commonly used in early clinical diagnosis, we may find hearing abnormality of patients earlier. This is especially important for infants or children. As language development happens in the early stages of one's life, the sooner we find the hearing abnormality and fix it, the better. After a child turns 8, it is practically not possible for him to understand human speech even with perfect hearing. I personally find hearing research a meaningful topic. For one, speech is the primary and direct way of human communication. We express ourselves and perceive other people's opinion via speech. For the other, music has always been an important part of my life for me personally. Without the ability to hear and listen, neither speech nor music will be possible to be perceived. Therefore, I want to help other people with hearing disabilities get better diagnosis and treatment. fNIRS is of great potential to help solve the issue.
-
-
-\chapter{Introduction}
-\chapter{Related Work}
-\chapter{Methods}
-\section {Study Participants}
-We measured 8 normal hearing people. Participant 8 was given silent stimuli as a comparison. The detailed information about the subjects are listed in the table.
-
-\begin{table}[h!]
-  \begin{center}
-    
-    
-    \begin{tabular}{p{2.3cm} | p{1.5cm} |p{3cm} | p{3cm} | p{2.5cm} | p{1cm}} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
-      \textbf{Participant} & \textbf {Gender}& \textbf{Handedness} & \textbf{Race} & \textbf{Hair color} &\textbf {Age}\\ 
-      \hline
-      1 chang  & F & right-handed & east asian & dark & 22 \\
-      2 gleb    & M & right-handed  & caucasian & blond & 18 \\
-      3 jonas  & M & left-handed &  caucasian & brunet & 21\\
-      4 lin      & F  & right-handed & east asian & dark& 21 \\
-      5 lukas & M & right-handed  &  caucasian& blond & 26 \\
-      6 shelia&  F & right-handed & southeast asian & dark & 22 \\
-      7 liao.   &  M & right-handed &  east asian & dark & 22 \\
-      8 lukas & M & right-handed  & caucasian & blond & 22 \\
-    \end{tabular}
-    \label{tab:table1}
-    \caption{Study Participants.}
-  \end{center}
-  
-\end{table}
-
-\section {Probe Design}
-The probes were first designed in AtlasViewer [pic] \cite {10.1117/1.NPh.2.2.020801}. I tried to replicate the probe design as close as possible to the research from Weder et al. However, several modifications need to be made due to device limitations.
-
-First of all, the paper only provided a rough 2D-sketch of their probe design. [see pic] The channels were not described in detail. Though there are different ways to define the channels, we believe it shouldn't matter as long as the mid-points of the channel correspond to that of the previous research.
-
-Due to device limitations, we only measured one side of the brain. According to previous research \cite {Frost1999-vs} , language processing has been predominantly associated to cortical activity in the left hemisphere. As a result, we've decided to focus on the left hemisphere.
-
-The fNIRS device we use also has limited number of sources and detectors. If we'd like to keep the original design, we'd need 9 sources and 9 detectors. However, the device we are using has only 10 sources and 8 detectors. The 
-
-
-\section {Audio Stimuli}
-
-\section {fNIRS Setup}
-
-\section {Data preprocession}
-Data preprocessing and analysis was executed in MATLAB (Mathworks, USA) and the Homer3 toolbox. The following steps were executed.
-
-First, the hemodynamic response was extracted with the Homer3 toolbox. Raw data were converted into optical densitoes. Motion artifacts were removed by using wavelet transformation of the data. The Homer3 toolbox bandpass filter (0.01 and 0.5 Hz) reduced drift, broadband noise, heartbeat, and respiration artifacts. Concentration if oxygenated and deoxygenated hemogloblin were estimated by applying the modified Beer-Lambert Law. It is important that the noise due to motion artifacts, drift, broadband noise, heartbeat, and respiration artifacts need to be processed before the concentration was estimated, according to the previous research \cite {Huppert:09}.
-
-Later on, the extracerrebral component in long channels was reduced by using measurements from the short channels as follows: the first principal components from the two short channels were estimated.
-
-
-\chapter{Results}
-
-\chapter{Discussion}
+\input {chapters/motivation}
+\input {chapters/introduction}
+\input {chapters/relatedwork}
+\input {chapters/methods}
+\input {chapters/results}
+\input {chapters/discussion}
 \chapter{Future prospectives}
 
 %%% Appendix

@@ -5,12 +5,12 @@
 \contentsline {chapter}{\numberline {4}Methods}{5}% 
 \contentsline {section}{\numberline {4.1}Study Participants}{5}% 
 \contentsline {section}{\numberline {4.2}Probe Design}{5}% 
-\contentsline {section}{\numberline {4.3}Audio Stimuli}{6}% 
-\contentsline {section}{\numberline {4.4}fNIRS Setup}{6}% 
-\contentsline {section}{\numberline {4.5}Data preprocession}{6}% 
-\contentsline {chapter}{\numberline {5}Results}{7}% 
-\contentsline {chapter}{\numberline {6}Discussion}{8}% 
-\contentsline {chapter}{\numberline {7}Future prospectives}{9}% 
-\contentsline {chapter}{List of Figures}{10}% 
-\contentsline {chapter}{List of Tables}{11}% 
-\contentsline {chapter}{References}{12}% 
+\contentsline {section}{\numberline {4.3}Acoustic Stimulation during fNIRS Experiment}{6}% 
+\contentsline {section}{\numberline {4.4}fNIRS Setup}{7}% 
+\contentsline {section}{\numberline {4.5}Data preprocession}{7}% 
+\contentsline {chapter}{\numberline {5}Results}{8}% 
+\contentsline {chapter}{\numberline {6}Discussion}{9}% 
+\contentsline {chapter}{\numberline {7}Future prospectives}{10}% 
+\contentsline {chapter}{List of Figures}{11}% 
+\contentsline {chapter}{List of Tables}{12}% 
+\contentsline {chapter}{References}{13}% 

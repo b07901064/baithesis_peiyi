@@ -1,0 +1,55 @@
+\chapter{Methods}
+\section {Study Participants}
+We measured 8 normal hearing people. Participant 8 was given silent stimuli as a comparison. The detailed information about the subjects are listed in the table.
+
+\begin{table}[h!]
+  \begin{center}
+    
+    
+    \begin{tabular}{p{2.3cm} | p{1.5cm} |p{3cm} | p{3cm} | p{2.5cm} | p{1cm}} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+      \textbf{Participant} & \textbf {Gender}& \textbf{Handedness} & \textbf{Race} & \textbf{Hair color} &\textbf {Age}\\ 
+      \hline
+      1 chang  & F & right-handed & east asian & dark & 22 yr \\
+      2 gleb    & M & right-handed  & caucasian & blond & 18 \\
+      3 jonas  & M & left-handed &  caucasian & brunet & 21\\
+      4 lin      & F  & right-handed & east asian & dark& 21 \\
+      5 lukas & M & right-handed  &  caucasian& blond & 26 \\
+      6 shelia&  F & right-handed & southeast asian & dark & 22 \\
+      7 liao.   &  M & right-handed &  east asian & dark & 22 \\
+      8 lukas & M & right-handed  & caucasian & blond & 22 \\
+    \end{tabular}
+    \label{tab:table1}
+    \caption{Study Participants.}
+  \end{center}
+  
+\end{table}
+
+\section {Probe Design}
+The probes were first designed in AtlasViewer [pic] \cite {10.1117/1.NPh.2.2.020801}. I tried to replicate the probe design as close as possible to the research from Weder et al. However, several modifications need to be made due to device limitations.
+
+First of all, the paper only provided a rough 2D-sketch of their probe design. [see pic] The channels were not described in detail. Though there are different ways to define the channels, we believe it shouldn't matter as long as the mid-points of the channel correspond to that of the previous research.
+
+Due to device limitations, we only measured one side of the brain. According to previous research \cite {Frost1999-vs} , language processing has been predominantly associated to cortical activity in the left hemisphere. As a result, we've decided to focus on the left hemisphere.
+
+The fNIRS device we use also has limited number of sources and detectors. If we'd like to keep the original design, we'd need 9 sources and 9 detectors. However, the device we are using has only 10 sources and 8 detectors. Hence, we shifted one channel around T7 a little bit to the left, so that one less detector is needed.
+
+
+
+
+\section {Acoustic Stimulation during fNIRS Experiment}
+Auditory stimuli were delivered binaurally via audio metric headphone. Stimuli consisted of 20-s chunks of the ICRA noise \cite {Dreschler}. 
+
+ To begin with, ICRA noise was developed to be used as background noise in clinical tests of hearing aids and possibly for measruing characteristics of non-linear instruments. The signals are based on live English speech from the EUROM database (Chan, 1995) in which a female speaker is explaining about the system of arithmetical notation. The speech signals were sampled with a sampling rate of 44.1 kHz. By composing the speech signals with well defined spectral and temporal characteristic, the modified signals have long-term spectrums but are completely unintelligible. We chose to use ICRA noise as stimuli based on several reasons. For one, ICRA noise is broadband amplitude-modulated signal. By selecting a broadband stimulus, broad cortical auditory areas and be activated more strongly compared with simple static stimulus. The bandwidth of auditory stimuli is positively correlated with the mean percentage signal change and spread of cortical activation \cite {Hall}. Previous fMRI study also manifested that more complex auditory stimuli elicit greater response in most parts of the auditory cortes \cite {Belin}.
+ 
+ 
+
+\section {fNIRS Setup}
+
+\section {Data preprocession}
+Data preprocessing and analysis was executed in MATLAB (Mathworks, USA) and the Homer3 toolbox. The following steps were executed.
+
+First, the hemodynamic response was extracted with the Homer3 toolbox. Raw data were converted into optical densitoes. Motion artifacts were removed by using wavelet transformation of the data. The Homer3 toolbox bandpass filter (0.01 and 0.5 Hz) reduced drift, broadband noise, heartbeat, and respiration artifacts. Concentration if oxygenated and deoxygenated hemogloblin were estimated by applying the modified Beer-Lambert Law. It is important that the noise due to motion artifacts, drift, broadband noise, heartbeat, and respiration artifacts need to be processed before the concentration was estimated, according to the previous research \cite {Huppert:09}.
+
+Later on, the extracerrebral component in long channels was reduced by using measurements from the short channels as follows: the first principal components from the two short channels were estimated.
+
+
