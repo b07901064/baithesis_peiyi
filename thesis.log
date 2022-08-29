@@ -1,8 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2021.4.17)  29 AUG 2022 13:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2021.4.17)  29 AUG 2022 13:51
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**thesis
+**thesis.tex
 (./thesis.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/report.cls
@@ -691,7 +692,7 @@ Here is how much of TeX's memory you used:
  9539 multiletter control sequences out of 15000+600000
  10387 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,15n,45p,1025b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,15n,45p,1029b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
@@ -704,7 +705,7 @@ exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
 ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 /2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (33 pages, 6331376 bytes).
+Output written on thesis.pdf (33 pages, 6331377 bytes).
 PDF statistics:
  182 PDF objects out of 1000 (max. 8388607)
  113 compressed objects within 2 object streams
