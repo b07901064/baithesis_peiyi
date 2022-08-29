@@ -23,15 +23,15 @@ $\epsilon _{\lambda}$: the molar absorptivity ($mM^{-1} \cdot cm^{-1}$) of the c
 $c$: the concentration ($mM$)of the chromophore. \\
 $L$: length of light path. \\
 
-The Beer-Lambert law was intended for use in a clear, non-scattering medium. When the law is applied to a scattering medium, e.g. brain tissue, a correction factor should be applied. The factor, called "differential pathlength factor (DPF)" accounts for the increase in optical path length due to scattering in the tissue. The modified Beer-Lambert law is given by \cite {Delpy_1988}:
+The Beer-Lambert law was intended for use in a clear, non-scattering medium. When the law is applied to a scattering medium, e.g. brain tissue, a correction factor should be applied. The factor, called "differential pathlength factor (DPF)" accounts for the increase in optical path length due to scattering in the tissue. The modified Beer-Lambert law is given by:
 \[
 OD_{\lambda} = \epsilon _{\lambda} \cdot c \cdot L \cdot B + OD_{R,L}
 \]
-where $OD_{R,L}$ represents the oxygen-independent light absorption due to scattering in the tissue. Assuming $OD_{R,L}$ is constant during a measurement, we may rewrite the previous equation in terms of changes in optical density and changes in concentration as follows:
+where $OD_{R,L}$ represents the oxygen-independent light absorption due to scattering in the tissue, and B is the mean pathlength traveled by the detected photons. In our case, i.e. CW-NIRS, this mean pathlength is not knowm. In a highly scattering medium, the pathlength of trajectories is longer than the source-detector seperation. Nevertheless, one may still estimate the pathlength within the whole sampling region by multiplying the source-detector distance with a DPF. Assuming $OD_{R,L}$ is constant during a measurement, we may rewrite the previous equation in terms of changes in optical density and changes in concentration as follows:
 \[
 \Delta c =\frac { \Delta OD_{\lambda}} {\epsilon _{\lambda} \cdot L \cdot B}
 \]
-where B is the differential pathlength factor (DPF). The validity of the above equation depends on how much B varies. \cite {Delpy_1988} investigated this question and gave a relation between the DPF and the head diameter. Nonetheless, newer research also provides different way to estimate the DPF. In the scope of this project, the DPF was calculated from a function of wavelengths and age of the participant \cite {Duncan1996MeasurementOC}.
+The validity of the above equation depends on how much B varies. \cite {Delpy_1988} investigated this question and gave a relation between the DPF and the head diameter. Nonetheless, newer research also provides different ways to estimate the DPF. In the scope of this project, the DPF was calculated from a function of wavelengths and age of the participant \cite {Duncan1996MeasurementOC}.
 
 
 

@@ -31,10 +31,18 @@ First of all, the paper only provided a rough 2D-sketch of their probe design. [
 
 \begin{figure}[H]
   \centering
-    \includegraphics[scale=.5]{bilder/weder_probe.jpg}
+    \includegraphics[scale= 0.4]{bilder/weder_probe.jpg}
   \caption{Probe design from Weder et al.}
   \label{fig:somesignal}
 \end{figure}
+
+\begin{figure}[H]
+  \centering
+    \includegraphics[scale=.35]{bilder/atlas_probe.png}
+  \caption{Probe design in this research. Shown in AtlasViewer}
+  \label{fig:somesignal}
+\end{figure}
+
 
 Due to device limitations, we only measured one side of the brain. According to previous research \cite {Frost1999-vs} , language processing has been predominantly associated to cortical activity in the left hemisphere. As a result, we've decided to focus on the left hemisphere.
 
@@ -70,7 +78,19 @@ After the setting in the Oxysoft software was done, the participant would be ask
 \section {Data preprocession}
 Data preprocessing and analysis was executed in MATLAB (Mathworks, USA) and the Homer3 toolbox. The following steps were executed.
 
-First, the hemodynamic response was extracted with the Homer3 toolbox. Raw data were converted into optical densities. Motion artifacts were removed by using wavelet transformation of the data. The Homer3 toolbox bandpass filter (0.01 and 0.5 Hz) reduced drift, broadband noise, heartbeat, and respiration artifacts. Concentration if oxygenated and deoxygenated hemogloblin were estimated by applying the modified Beer-Lambert Law. It is important that the noise due to motion artifacts, drift, broadband noise, heartbeat, and respiration artifacts need to be processed before the concentration was estimated, according to the previous research \cite {Huppert:09}.
+First, the hemodynamic response was extracted with the Homer3 toolbox. Raw data were converted into optical densities. Motion artifacts were removed by using wavelet transformation of the data. The Homer3 toolbox bandpass filter (0.01 and 0.5 Hz) reduced drift, broadband noise, heartbeat, and respiration artifacts. Concentration if oxygenated and deoxygenated hemogloblin were estimated by applying the modified Beer-Lambert Law  \cite {Delpy_1988}. Strictly speaking, the DPF should be experimentally obtained with FD-NIRS or TD-NIRS. However, due to device limitation, it is not possible in this project. Hence, in our research, the DPF was determined by wavelengths of the fNIRS device and age of the participant. \cite {Duncan1996MeasurementOC}. With the given literature, the DPF for two wavelength is calculated with the formulas:
+\[
+DPF_{744} = 5.11 + 0.106 \cdot Age[yr]^{0.723}
+\]
+
+\[
+DPF_{852} = 4.67 + 0.062 \cdot Age[yr]^{0.819}
+\]
+
+The paper has only given the formulas for four wavelengths. Although we used different wavelengths $\lambda = 757 [nm]$ and $\lambda = 843 [nm]$. We are convinced that the calculated DPF would be very close to the ones calculated with the above two equations.
+
+
+It is important to note that the noise due to motion artifacts, drift, broadband noise, heartbeat, and respiration artifacts need to be processed before the concentration was estimated, according to the previous research \cite {Huppert:09}.
 
 Later on, the extracerrebral component in long channels should be reduced by using measurements from the short channels as follows: the first principal components from the two short channels were estimated and then multiplied by its coefficient from the GLM (general linear model).However, this is not done in the scope of this research. The coefficient from the GLM were very small. They were of the magnitudes $10^{-16}$ , whereas the hemodynamic response in the long channels were of the magnitudes $10^{-5}$. Hence, we concluded the extracerrebral components in our case can be negligible.
 
@@ -82,7 +102,7 @@ First, the signal is bandpass-filtered to keep only the cardiac band. In our cas
 \begin{figure}[H]
   \centering
     \includegraphics[scale=.75]{bilder/SCI_hist.png}
-  \caption{Distribution of SCI values for all measurements. Threshold : 0.75}
+  \caption{Distribution of SCI values for all measurements.}
   \label{fig:somesignal}
 \end{figure}
 
