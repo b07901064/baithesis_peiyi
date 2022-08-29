@@ -39,16 +39,39 @@ First of all, the paper only provided a rough 2D-sketch of their probe design. [
 \begin{figure}[H]
   \centering
     \includegraphics[scale=.35]{bilder/atlas_probe.png}
-  \caption{Probe design in this research. Shown in AtlasViewer}
+  \caption{Probe design in this research. Shown in AtlasViewer. The red numbers represent the light sources and the blue numbers represent the dectector. Channels are shown in yellow lines.}
   \label{fig:somesignal}
 \end{figure}
 
+\begin{figure}[H]
+  \centering
+    \includegraphics[scale=.35]{bilder/SDgui.png}
+  \caption{SDgui interface and optode coordinates.}
+  \label{fig:somesignal}
+\end{figure}
+
+\begin{figure}
+\centering
+\begin{minipage}[c]{.4\linewidth}
+  \centering
+  \includegraphics[scale= 0.05, angle= -90, origin= c]{bilder/IMG_9825.jpg}
+  \caption{Manufacturing process of the cap}
+\end{minipage} \hfill
+\begin{minipage}[c]{.4\linewidth}
+  \centering
+  \includegraphics[scale= 0.05, angle= -90, origin= c] {bilder/IMG_9768.jpg}
+  \caption{Finished cap on dummy}
+  \label{fig:test2}
+\end{minipage}
+\end{figure}
 
 Due to device limitations, we only measured one side of the brain. According to previous research \cite {Frost1999-vs} , language processing has been predominantly associated to cortical activity in the left hemisphere. As a result, we've decided to focus on the left hemisphere.
 
 The fNIRS device we use also has limited number of sources and detectors. If we'd like to keep the original design, we'd need 9 sources and 9 detectors. However, the device we are using has only 10 sources and 8 detectors. Hence, we shifted one channel around T7 a little bit to the left, so that one less detector is needed. At the end, there were 12 long channels and 2 short channels in out setup.
 
 For the software usage, an .xml file is required . In the .xml file, the sources, detectors, and channels are defined. Different optode templates for different probe design can be stored in one single .xml file. The physical cap was self-made from a swimming cap. With the help of a dummy head model, correct positions of the optodes were marked and holes were drilled accordingly. The mounts were put on the cap on the holes. In order to ensure the correct channels length to be fixed exactly at 30 mm, plastic holders were also placed on the long channels. As for the short channels, the  package comes with mounts for short channels. Thus, no plastic holders were needed in the case. The short channels were 11 mm long. The self-made cap turned out to work out well. The contacts between the scalp and the optodes were good thanks to the elastic characteristic of the material.
+
+
 
 \section {Acoustic Stimulation during fNIRS Experiment}
 Auditory stimuli were delivered binaurally via an audio metric headphone (Sennheiser HD 650). Stimuli consisted of 20-s chunks of the ICRA noise \cite {Dreschler}. 
@@ -102,8 +125,11 @@ First, the signal is bandpass-filtered to keep only the cardiac band. In our cas
 \begin{figure}[H]
   \centering
     \includegraphics[scale=.75]{bilder/SCI_hist.png}
-  \caption{Distribution of SCI values for all measurements.}
-  \label{fig:somesignal}
+  \caption{Distribution of SCI values.}
+   \label{fig:somesignal}
+    \medskip
+     \small {In this project, only 4 channels failed to reach the threshold = 0.75. In other words, of all the measurements (14 channels per participant, 8 participants in total.) That means over 96\% of the measurements passed the SCI threshold.}
+ 
 \end{figure}
 
 

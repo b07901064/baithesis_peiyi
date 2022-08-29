@@ -6,14 +6,14 @@
 \contentsline {chapter}{\numberline {3}Methods}{5}% 
 \contentsline {section}{\numberline {3.1}Study Participants}{5}% 
 \contentsline {section}{\numberline {3.2}Probe Design}{5}% 
-\contentsline {section}{\numberline {3.3}Acoustic Stimulation during fNIRS Experiment}{7}% 
-\contentsline {section}{\numberline {3.4}fNIRS Setup}{8}% 
-\contentsline {section}{\numberline {3.5}Data preprocession}{9}% 
-\contentsline {chapter}{\numberline {4}Results}{11}% 
-\contentsline {section}{\numberline {4.1}Waveform Morphology}{11}% 
-\contentsline {section}{\numberline {4.2}Regional of Interest}{14}% 
-\contentsline {chapter}{\numberline {5}Discussion}{15}% 
-\contentsline {chapter}{\numberline {6}Future prospectives}{16}% 
-\contentsline {chapter}{List of Figures}{17}% 
-\contentsline {chapter}{List of Tables}{18}% 
-\contentsline {chapter}{References}{20}% 
+\contentsline {section}{\numberline {3.3}Acoustic Stimulation during fNIRS Experiment}{8}% 
+\contentsline {section}{\numberline {3.4}fNIRS Setup}{9}% 
+\contentsline {section}{\numberline {3.5}Data preprocession}{10}% 
+\contentsline {chapter}{\numberline {4}Results}{12}% 
+\contentsline {section}{\numberline {4.1}Waveform Morphology}{12}% 
+\contentsline {section}{\numberline {4.2}Regional of Interest}{16}% 
+\contentsline {chapter}{\numberline {5}Discussion}{18}% 
+\contentsline {chapter}{\numberline {6}Future prospectives}{19}% 
+\contentsline {chapter}{List of Figures}{20}% 
+\contentsline {chapter}{List of Tables}{21}% 
+\contentsline {chapter}{References}{23}% 
