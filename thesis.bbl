@@ -65,11 +65,23 @@ J\"{o}bsis, F.~F. (1977).
   sufficiency and circulatory parameters.
 \newblock {\em Science}, 198(4323):1264--1267.
 
+\bibitem[Molavi and Dumont, 2012]{Molavi_2012}
+Molavi, B. and Dumont, G.~A. (2012).
+\newblock Wavelet-based motion artifact removal for functional near-infrared
+  spectroscopy.
+\newblock {\em Physiological Measurement}, 33(2):259--270.
+
 \bibitem[Pollonini et~al., 2013]{polloniniSCI}
 Pollonini, L., Olds, C., Abaya, H., Bortfeld, H., Beauchamp, M., and Oghalai,
   J. (2013).
 \newblock Auditory cortex activation to natural speech and simulated cochlear
   implant speech measured with functional near-infrared spectroscopy.
 \newblock {\em Hearing research}, 309.
+
+\bibitem[Weder et~al., 2018]{Weder2018-qg}
+Weder, S., Zhou, X., Shoushtarian, M., Innes-Brown, H., and McKay, C. (2018).
+\newblock Cortical processing related to intensity of a modulated noise
+  stimulus-a functional near-infrared study.
+\newblock {\em J. Assoc. Res. Otolaryngol.}, 19(3):273--286.
 
 \end{thebibliography}

@@ -98,10 +98,18 @@ The Brite23 was used in this research. It is light weight, has 10 sources and 8 
 After the setting in the Oxysoft software was done, the participant would be asked to put on the self-made cap. On each optode position, the hair would be put aside gently with a Q-tip to ensure better contact between the optodes and the scalp. Then, the participants would be asked to put on the headphone and go into the sound booth.
 
 
-\section {Data preprocession}
+\section {Data preprocesing}
 Data preprocessing and analysis was executed in MATLAB (Mathworks, USA) and the Homer3 toolbox. The following steps were executed.
 
-First, the hemodynamic response was extracted with the Homer3 toolbox. Raw data were converted into optical densities. Motion artifacts were removed by using wavelet transformation of the data. The Homer3 toolbox bandpass filter (0.01 and 0.5 Hz) reduced drift, broadband noise, heartbeat, and respiration artifacts. Concentration if oxygenated and deoxygenated hemogloblin were estimated by applying the modified Beer-Lambert Law  \cite {Delpy_1988}. Strictly speaking, the DPF should be experimentally obtained with FD-NIRS or TD-NIRS. However, due to device limitation, it is not possible in this project. Hence, in our research, the DPF was determined by wavelengths of the fNIRS device and age of the participant. \cite {Duncan1996MeasurementOC}. With the given literature, the DPF for two wavelength is calculated with the formulas:
+\begin{figure}[H]
+  \centering
+    \includegraphics[scale=.8]{pdf/flowchart2.pdf}
+  \caption{Flow Chart of Data Preprocessing}
+  \label{fig:somesignal}
+\end{figure}
+
+
+First, the hemodynamic response was extracted with the Homer3 toolbox. Raw data were converted into optical densities. Motion artifacts were removed by using wavelet transformation of the data. \cite {Molavi_2012} The Homer3 toolbox bandpass filter (0.01 and 0.5 Hz) reduced drift, broadband noise, heartbeat, and respiration artifacts. Concentration if oxygenated and deoxygenated hemogloblin were estimated by applying the modified Beer-Lambert Law  \cite {Delpy_1988}. Strictly speaking, the DPF should be experimentally obtained with FD-NIRS or TD-NIRS. However, due to device limitation, it is not possible in this project. Hence, in our research, the DPF was determined by wavelengths of the fNIRS device and age of the participant. \cite {Duncan1996MeasurementOC}. With the given literature, the DPF for two wavelength is calculated with the formulas:
 \[
 DPF_{744} = 5.11 + 0.106 \cdot Age[yr]^{0.723}
 \]
@@ -112,6 +120,12 @@ DPF_{852} = 4.67 + 0.062 \cdot Age[yr]^{0.819}
 
 The paper has only given the formulas for four wavelengths. Although we used different wavelengths $\lambda = 757 [nm]$ and $\lambda = 843 [nm]$. We are convinced that the calculated DPF would be very close to the ones calculated with the above two equations.
 
+\begin{figure}[H]
+  \centering
+    \includegraphics[scale=.45]{bilder/fig3_duncan.jpg}
+  \caption{from Duncan}
+  \label{fig:somesignal}
+\end{figure}
 
 It is important to note that the noise due to motion artifacts, drift, broadband noise, heartbeat, and respiration artifacts need to be processed before the concentration was estimated, according to the previous research \cite {Huppert:09}.
 

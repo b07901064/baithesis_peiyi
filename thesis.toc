@@ -8,15 +8,15 @@
 \contentsline {section}{\numberline {2.2}Probe Design}{4}% 
 \contentsline {section}{\numberline {2.3}Acoustic Stimulation during fNIRS Experiment}{7}% 
 \contentsline {section}{\numberline {2.4}fNIRS Setup}{8}% 
-\contentsline {section}{\numberline {2.5}Data preprocession}{9}% 
-\contentsline {chapter}{\numberline {3}Results}{11}% 
-\contentsline {section}{\numberline {3.1}Waveform Morphology}{11}% 
-\contentsline {subsection}{\numberline {3.1.1}Oxygenated Hemoglobin, HbO}{12}% 
-\contentsline {subsection}{\numberline {3.1.2}Deoxygenated Hemoglobin, HbR}{14}% 
-\contentsline {section}{\numberline {3.2}Region of Interest}{16}% 
-\contentsline {section}{\numberline {3.3}Poor Measurements}{18}% 
-\contentsline {chapter}{\numberline {4}Discussion}{19}% 
-\contentsline {chapter}{\numberline {5}Future prospectives}{20}% 
-\contentsline {chapter}{List of Figures}{21}% 
-\contentsline {chapter}{List of Tables}{22}% 
-\contentsline {chapter}{References}{24}% 
+\contentsline {section}{\numberline {2.5}Data preprocesing}{9}% 
+\contentsline {chapter}{\numberline {3}Results}{12}% 
+\contentsline {section}{\numberline {3.1}Waveform Morphology}{12}% 
+\contentsline {subsection}{\numberline {3.1.1}Oxygenated Hemoglobin, HbO}{13}% 
+\contentsline {subsection}{\numberline {3.1.2}Deoxygenated Hemoglobin, HbR}{15}% 
+\contentsline {section}{\numberline {3.2}Region of Interest}{17}% 
+\contentsline {section}{\numberline {3.3}Poor Measurements}{19}% 
+\contentsline {chapter}{\numberline {4}Discussion}{20}% 
+\contentsline {chapter}{\numberline {5}Future prospectives}{21}% 
+\contentsline {chapter}{List of Figures}{22}% 
+\contentsline {chapter}{List of Tables}{23}% 
+\contentsline {chapter}{References}{25}% 
