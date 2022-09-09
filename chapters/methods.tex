@@ -15,7 +15,7 @@ We measured 8 normal hearing people. Participant 8 was given silent stimuli as a
       4 lin      & F  & right-handed & east asian & dark& 21 \\
       5 lukas & M & right-handed  &  caucasian& blond & 26 \\
       6 shelia&  F & right-handed & southeast asian & dark & 22 \\
-      7 liao.   &  M & right-handed &  east asian & dark & 22 \\
+      7 liao.   &  M & left-handed &  east asian & dark & 23 \\
       8 luca & M & right-handed  & caucasian & blond & 22 \\
     \end{tabular}
     \label{tab:table1}
@@ -103,13 +103,13 @@ Data preprocessing and analysis was executed in MATLAB (Mathworks, USA) and the 
 
 \begin{figure}[H]
   \centering
-    \includegraphics[scale=.8]{pdf/flowchart2.pdf}
+    \includegraphics[scale=.9]{pdf/flowchart2.pdf}
   \caption{Flow Chart of Data Processing}
   \label{fig:somesignal}
 \end{figure}
 
 
-First, the hemodynamic response was extracted with the Homer3 toolbox. Raw data were converted into optical densities. Motion artifacts were removed by using wavelet transformation of the data. \cite {Molavi_2012}. We also tried to use principle component analysis (PCA) to remove motion artifact, since PCA has the advantage of faster computation. However, it is also known for tending to remove too much of the activation signal in adults. Wavelet transform on the other hand, takes longer to compute, but it is better at maintaining frequency content. And then, the Homer3 toolbox bandpass filter [0.01 - 0.5 Hz] was used to reduced drift, broadband noise, heartbeat, and respiration artifacts. Changes of concentration of oxygenated and deoxygenated hemogloblin were estimated by applying the modified Beer-Lambert Law  \cite {Delpy_1988}. Strictly speaking, the DPF should be experimentally obtained with FD-NIRS or TD-NIRS. However, due to device limitation, it is not possible in this project. Hence, in our research, the DPF was determined by wavelengths of the fNIRS device and age of the participant. \cite {Duncan1996MeasurementOC}. With the given literature, the DPF for two wavelength is calculated with the formulas:
+First, the hemodynamic response was extracted with the Homer3 toolbox. Raw data were converted into optical densities. Motion artifacts were removed by using wavelet transformation of the data. \cite {Molavi_2012}. We also tried to use principle component analysis (PCA) to remove motion artifact, since PCA has the advantage of faster computation. However, it is also known for tending to remove too much of the activation signal in adults. Wavelet transform on the other hand, takes longer to compute, but it is better at maintaining frequency content. And then, the Homer3 toolbox bandpass filter [0.01 - 0.5 Hz] was used to reduced drift, broadband noise, heartbeat, and respiration artifacts. Changes of concentration of oxygenated and deoxygenated hemogloblin were estimated by applying the modified Beer-Lambert Law  \cite {Delpy_1988}. In this step, a correction factor, DPF, is used. Although strictly speaking, the DPF should be experimentally obtained with FD-NIRS or TD-NIRS, due to device limitation, it is not possible in this project. Hence, in our research, the DPF was determined by wavelengths of the fNIRS device and age of the participant. \cite {Duncan1996MeasurementOC}. With the given literature, the DPF for two wavelength is calculated with the formulas:
 \[
 DPF_{744} = 5.11 + 0.106 \cdot Age[yr]^{0.723}
 \]
@@ -117,7 +117,9 @@ DPF_{744} = 5.11 + 0.106 \cdot Age[yr]^{0.723}
 \[
 DPF_{852} = 4.67 + 0.062 \cdot Age[yr]^{0.819}
 \]
-Duncan et al. developed a broadband radiofrequency-modulated PRS instrument using four wavelengths(690, 744, 807, and 832 nm) which can measure phase shifts through more than 4 cm of brain tissue in less than 1 s. In the study, the modulation frequency was set at 200 MHz, which has been shown theoretically to be a frequency at which phase shift and true mean optical path length are equal \cite {Arridge_1992}. By dividing the true mean optical path length with source detector  separation, the DPF can be obtained. The authors also provided mathematical models based on the measurements. Even though only 4 equations were provided with the above-mentioned 4 wavelengths, and our wavelengths are different then that of the authors used, we are convinced that with the above two equations, we may still get good estimate of the true DPF in our case.
+Duncan et al. developed a broadband radiofrequency-modulated PRS instrument using four wavelengths(690, 744, 807, and 832 nm) which can measure phase shifts through more than 4 cm of brain tissue in less than 1 s. In the study, the modulation frequency was set at 200 MHz, which has been shown theoretically to be a frequency at which phase shift and true mean optical path length are equal \cite {Arridge_1992}. By dividing the true mean optical path length with source detector  separation, the DPF can be obtained. 
+
+The authors also provided mathematical models based on the measurements. The estimated DPF is in a sequential order as the used wavelengths. The shorter the wavelength, the larger the mean DPF they measured. Even though only 4 equations were provided with the above-mentioned 4 wavelengths, and our wavelengths are different then that of the authors used, we are convinced that with the above two equations, we may still get fair estimate of the true DPF in our case.
 
 \begin{figure}[H]
   \centering
