@@ -13,7 +13,7 @@
 \contentsline {section}{\numberline {3.1}Waveform Morphology}{13}% 
 \contentsline {subsection}{\numberline {3.1.1}Oxygenated Hemoglobin, HbO}{14}% 
 \contentsline {subsection}{\numberline {3.1.2}Deoxygenated Hemoglobin, HbR}{17}% 
-\contentsline {section}{\numberline {3.2}Region of Interest}{19}% 
+\contentsline {section}{\numberline {3.2}Region of Interest}{20}% 
 \contentsline {section}{\numberline {3.3}Poor Measurements}{23}% 
 \contentsline {chapter}{\numberline {4}Discussion}{24}% 
 \contentsline {section}{\numberline {4.1} Individual Case-by-Case Study}{24}% 
