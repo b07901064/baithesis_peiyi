@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2021.4.17)  11 SEP 2022 11:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2021.4.17)  12 SEP 2022 10:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -314,42 +314,6 @@ LaTeX Warning: Label `fig:somesignal' multiply defined.
 LaTeX Warning: Label `fig:somesignal' multiply defined.
 
 
-LaTeX Warning: Label `fig:test2' multiply defined.
-
-
-LaTeX Warning: Label `fig:somesignal' multiply defined.
-
-
-LaTeX Warning: Label `fig:somesignal' multiply defined.
-
-
-LaTeX Warning: Label `fig:somesignal' multiply defined.
-
-
-LaTeX Warning: Label `fig:somesignal' multiply defined.
-
-
-LaTeX Warning: Label `fig:somesignal' multiply defined.
-
-
-LaTeX Warning: Label `fig:somesignal' multiply defined.
-
-
-LaTeX Warning: Label `fig:somesignal' multiply defined.
-
-
-LaTeX Warning: Label `fig:somesignal' multiply defined.
-
-
-LaTeX Warning: Label `fig:somesignal' multiply defined.
-
-
-LaTeX Warning: Label `fig:somesignal' multiply defined.
-
-
-LaTeX Warning: Label `fig:test2' multiply defined.
-
-
 LaTeX Warning: Label `fig:somesignal' multiply defined.
 
 
@@ -382,18 +346,18 @@ LaTeX Warning: Label `fig:somesignal' multiply defined.
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
  (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count117
@@ -443,15 +407,15 @@ Package caption Info: End \AtBeginDocument code.
 <bai-tum.pdf, id=1, 2687.03876pt x 300.12125pt>
 File: bai-tum.pdf Graphic file (type pdf)
 <use bai-tum.pdf>
-Package pdftex.def Info: bai-tum.pdf  used on input line 52.
+Package pdftex.def Info: bai-tum.pdf  used on input line 49.
 (pdftex.def)             Requested size: 390.0pt x 43.55539pt.
 File: bai-tum.pdf Graphic file (type pdf)
 <use bai-tum.pdf>
-Package pdftex.def Info: bai-tum.pdf  used on input line 52.
+Package pdftex.def Info: bai-tum.pdf  used on input line 49.
 (pdftex.def)             Requested size: 390.0pt x 43.55539pt.
 File: bai-tum.pdf Graphic file (type pdf)
 <use bai-tum.pdf>
-Package pdftex.def Info: bai-tum.pdf  used on input line 52.
+Package pdftex.def Info: bai-tum.pdf  used on input line 49.
 (pdftex.def)             Requested size: 390.0pt x 43.55539pt.
 
 
@@ -467,12 +431,12 @@ um.pdf>] [2
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 57.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 54.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
 
 [1] [2
 
@@ -492,6 +456,11 @@ Chapter 1.
 
 
 ]
+
+LaTeX Warning: Citation `doi:10.1126/science.929199' on page 2 undefined on inp
+ut line 13.
+
+
 Overfull \hbox (14.25691pt too wide) in paragraph at lines 13--14
 \OT1/cmr/m/n/12 Hemoglobin, the pro-tein from in-side red blood cells, trans-po
 rts oxy-gen molecules
@@ -503,6 +472,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--25
  []
 
 [2]
+
+LaTeX Warning: Citation `Delpy_1988' on page 3 undefined on input line 34.
+
+
+LaTeX Warning: Citation `Duncan1996MeasurementOC' on page 3 undefined on input 
+line 34.
+
+
 Overfull \hbox (41.2733pt too wide) in paragraph at lines 39--45
 \OT1/cmr/m/n/12 Wavelet for MA: https://iopscience.iop.org/article/10.1088/0967
 -3334/33/2/259/pdf 
@@ -512,6 +489,9 @@ Overfull \hbox (41.2733pt too wide) in paragraph at lines 39--45
 Underfull \hbox (badness 10000) in paragraph at lines 39--45
 
  []
+
+
+LaTeX Warning: Citation `Weder2018-qg' on page 3 undefined on input line 46.
 
 ) (./chapters/methods.tex [3]
 Chapter 2.
@@ -529,6 +509,10 @@ Overfull \hbox (0.7653pt too wide) in paragraph at lines 10--10
 Overfull \hbox (60.42169pt too wide) in paragraph at lines 9--22
  [] 
  []
+
+
+LaTeX Warning: Citation `10.1117/1.NPh.2.2.020801' on page 4 undefined on input
+ line 28.
 
 [4
 
@@ -564,7 +548,22 @@ File: bilder/IMG_9768.jpg Graphic file (type jpg)
 <use bilder/IMG_9768.jpg>
 Package pdftex.def Info: bilder/IMG_9768.jpg  used on input line 62.
 (pdftex.def)             Requested size: 202.36786pt x 151.7759pt.
+
+LaTeX Warning: Citation `Frost1999-vs' on page 6 undefined on input line 68.
+
 [6 <./bilder/IMG_9825.jpg> <./bilder/IMG_9768.jpg> <./bilder/SDgui.png>]
+
+LaTeX Warning: Citation `Dreschler' on page 7 undefined on input line 77.
+
+
+LaTeX Warning: Citation `chanEUROM' on page 7 undefined on input line 79.
+
+
+LaTeX Warning: Citation `Hall' on page 7 undefined on input line 81.
+
+
+LaTeX Warning: Citation `Belin' on page 7 undefined on input line 81.
+
 [7] [8]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pdf/flowchart2.pdf): PDF i
@@ -574,71 +573,73 @@ File: pdf/flowchart2.pdf Graphic file (type pdf)
 <use pdf/flowchart2.pdf>
 Package pdftex.def Info: pdf/flowchart2.pdf  used on input line 106.
 (pdftex.def)             Requested size: 225.91393pt x 302.66393pt.
+
+LaTeX Warning: Citation `Molavi_2012' on page 9 undefined on input line 112.
+
+
+LaTeX Warning: Citation `Delpy_1988' on page 9 undefined on input line 112.
+
+
+LaTeX Warning: Citation `Duncan1996MeasurementOC' on page 9 undefined on input 
+line 112.
+
 [9 <./pdf/flowchart2.pdf>]
+
+LaTeX Warning: Citation `Arridge_1992' on page 10 undefined on input line 120.
+
 <bilder/fig3_duncan.jpg, id=88, 557.08125pt x 523.9575pt>
 File: bilder/fig3_duncan.jpg Graphic file (type jpg)
 <use bilder/fig3_duncan.jpg>
 Package pdftex.def Info: bilder/fig3_duncan.jpg  used on input line 126.
 (pdftex.def)             Requested size: 250.68425pt x 235.77869pt.
 
-Underfull \vbox (badness 2426) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
+
+LaTeX Warning: Citation `Huppert:09' on page 11 undefined on input line 131.
+
+
+LaTeX Warning: Citation `polloniniSCI' on page 11 undefined on input line 135.
+
 <bilder/SCI_hist.png, id=92, 462.528pt x 346.896pt>
 File: bilder/SCI_hist.png Graphic file (type png)
 <use bilder/SCI_hist.png>
 Package pdftex.def Info: bilder/SCI_hist.png  used on input line 142.
 (pdftex.def)             Requested size: 346.89514pt x 260.17136pt.
 
-[11 <./bilder/fig3_duncan.jpg>]) (./chapters/results.tex [12 <./bilder/SCI_hist
-.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11 <./bilder/fig3_duncan.jpg>]) (./chapters/results.tex [12 <./bilder/SCI_his
+t.png>]
 Chapter 3.
-
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pdf/optode_template.pdf): 
-PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/optode_template.pdf, id=102, 306.18388pt x 182.6022pt>
-File: pdf/optode_template.pdf Graphic file (type pdf)
-<use pdf/optode_template.pdf>
-Package pdftex.def Info: pdf/optode_template.pdf  used on input line 11.
-(pdftex.def)             Requested size: 238.82245pt x 142.42914pt.
-<pdf/atlas_optode_template.pdf, id=103, 597.23125pt x 845.1575pt>
-File: pdf/atlas_optode_template.pdf Graphic file (type pdf)
-<use pdf/atlas_optode_template.pdf>
-Package pdftex.def Info: pdf/atlas_optode_template.pdf  used on input line 16.
-(pdftex.def)             Requested size: 119.44412pt x 169.0285pt.
-
-Overfull \hbox (83.22803pt too wide) in paragraph at lines 16--17
- [][] 
- []
-
-
-Underfull \hbox (badness 1043) in paragraph at lines 17--17
-[]\OT1/cmr/m/n/12 Figure 3.2: |on
- []
-
+<bilder/optode_ink.png, id=102, 654.19406pt x 515.67656pt>
+File: bilder/optode_ink.png Graphic file (type png)
+<use bilder/optode_ink.png>
+Package pdftex.def Info: bilder/optode_ink.png  used on input line 9.
+(pdftex.def)             Requested size: 294.3846pt x 232.0523pt.
 [13
 
- <./pdf/optode_template.pdf> <./pdf/atlas_optode_template.pdf>]
-<bilder/HbO_Mole/sub_jonas_s_HbO.png, id=124, 1204.5pt x 602.25pt>
+ <./bilder/optode_ink.png>]
+<bilder/HbO_Mole/sub_jonas_s_HbO.png, id=107, 1204.5pt x 602.25pt>
 File: bilder/HbO_Mole/sub_jonas_s_HbO.png Graphic file (type png)
 <use bilder/HbO_Mole/sub_jonas_s_HbO.png>
 Package pdftex.def Info: bilder/HbO_Mole/sub_jonas_s_HbO.png  used on input lin
-e 27.
+e 19.
 (pdftex.def)             Requested size: 481.79147pt x 240.89572pt.
 
-Overfull \hbox (91.79147pt too wide) in paragraph at lines 27--28
+Overfull \hbox (91.79147pt too wide) in paragraph at lines 19--20
  [][] 
  []
 
-<bilder/HbO_Mole/sub_lukas_s_HbO.png, id=125, 1204.5pt x 602.25pt>
+<bilder/HbO_Mole/sub_lukas_s_HbO.png, id=108, 1204.5pt x 602.25pt>
 File: bilder/HbO_Mole/sub_lukas_s_HbO.png Graphic file (type png)
 <use bilder/HbO_Mole/sub_lukas_s_HbO.png>
 Package pdftex.def Info: bilder/HbO_Mole/sub_lukas_s_HbO.png  used on input lin
-e 34.
+e 26.
 (pdftex.def)             Requested size: 481.79147pt x 240.89572pt.
 
-Overfull \hbox (91.79147pt too wide) in paragraph at lines 34--35
+Overfull \hbox (91.79147pt too wide) in paragraph at lines 26--27
  [][] 
  []
 
@@ -646,25 +647,25 @@ Overfull \hbox (91.79147pt too wide) in paragraph at lines 34--35
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14 <./bilder/HbO_Mole/sub_jonas_s_HbO.png (PNG copy)>]
-<bilder/HbO_Mole/sub_shelia_s_HbO.png, id=129, 1204.5pt x 602.25pt>
+<bilder/HbO_Mole/sub_shelia_s_HbO.png, id=112, 1204.5pt x 602.25pt>
 File: bilder/HbO_Mole/sub_shelia_s_HbO.png Graphic file (type png)
 <use bilder/HbO_Mole/sub_shelia_s_HbO.png>
 Package pdftex.def Info: bilder/HbO_Mole/sub_shelia_s_HbO.png  used on input li
-ne 41.
+ne 33.
 (pdftex.def)             Requested size: 481.79147pt x 240.89572pt.
 
-Overfull \hbox (91.79147pt too wide) in paragraph at lines 41--42
+Overfull \hbox (91.79147pt too wide) in paragraph at lines 33--34
  [][] 
  []
 
-<bilder/HbO_Mole/sub_liao_s_HbO.png, id=130, 1204.5pt x 602.25pt>
+<bilder/HbO_Mole/sub_liao_s_HbO.png, id=113, 1204.5pt x 602.25pt>
 File: bilder/HbO_Mole/sub_liao_s_HbO.png Graphic file (type png)
 <use bilder/HbO_Mole/sub_liao_s_HbO.png>
 Package pdftex.def Info: bilder/HbO_Mole/sub_liao_s_HbO.png  used on input line
- 48.
+ 40.
 (pdftex.def)             Requested size: 481.79147pt x 240.89572pt.
 
-Overfull \hbox (91.79147pt too wide) in paragraph at lines 48--49
+Overfull \hbox (91.79147pt too wide) in paragraph at lines 40--41
  [][] 
  []
 
@@ -673,73 +674,73 @@ Underfull \vbox (badness 6510) has occurred while \output is active []
 
  [15 <./bilder/HbO_Mole/sub_lukas_s_HbO.png (PNG copy)> <./bilder/HbO_Mole/sub_
 shelia_s_HbO.png (PNG copy)>]
-<bilder/HbO_Mole/sub_luca2_s_HbO.png, id=134, 1204.5pt x 602.25pt>
+<bilder/HbO_Mole/sub_luca2_s_HbO.png, id=117, 1204.5pt x 602.25pt>
 File: bilder/HbO_Mole/sub_luca2_s_HbO.png Graphic file (type png)
 <use bilder/HbO_Mole/sub_luca2_s_HbO.png>
 Package pdftex.def Info: bilder/HbO_Mole/sub_luca2_s_HbO.png  used on input lin
-e 56.
+e 48.
 (pdftex.def)             Requested size: 481.79147pt x 240.89572pt.
 
-Overfull \hbox (91.79147pt too wide) in paragraph at lines 56--57
+Overfull \hbox (91.79147pt too wide) in paragraph at lines 48--49
  [][] 
  []
 
 [16 <./bilder/HbO_Mole/sub_liao_s_HbO.png (PNG copy)> <./bilder/HbO_Mole/sub_lu
 ca2_s_HbO.png (PNG copy)>]
-<bilder/HbR_Mole/sub_jonas_s_HbR.png, id=138, 1204.5pt x 602.25pt>
+<bilder/HbR_Mole/sub_jonas_s_HbR.png, id=121, 1204.5pt x 602.25pt>
 File: bilder/HbR_Mole/sub_jonas_s_HbR.png Graphic file (type png)
 <use bilder/HbR_Mole/sub_jonas_s_HbR.png>
 Package pdftex.def Info: bilder/HbR_Mole/sub_jonas_s_HbR.png  used on input lin
-e 69.
+e 61.
 (pdftex.def)             Requested size: 481.79147pt x 240.89572pt.
 
-Overfull \hbox (91.79147pt too wide) in paragraph at lines 69--70
+Overfull \hbox (91.79147pt too wide) in paragraph at lines 61--62
  [][] 
  []
 
-<bilder/HbR_Mole/sub_lukas_s_HbR.png, id=139, 1204.5pt x 602.25pt>
+<bilder/HbR_Mole/sub_lukas_s_HbR.png, id=122, 1204.5pt x 602.25pt>
 File: bilder/HbR_Mole/sub_lukas_s_HbR.png Graphic file (type png)
 <use bilder/HbR_Mole/sub_lukas_s_HbR.png>
 Package pdftex.def Info: bilder/HbR_Mole/sub_lukas_s_HbR.png  used on input lin
-e 76.
+e 68.
 (pdftex.def)             Requested size: 481.79147pt x 240.89572pt.
 
-Overfull \hbox (91.79147pt too wide) in paragraph at lines 76--77
+Overfull \hbox (91.79147pt too wide) in paragraph at lines 68--69
  [][] 
  []
 
-<bilder/HbR_Mole/sub_shelia_s_HbR.png, id=140, 1204.5pt x 602.25pt>
+<bilder/HbR_Mole/sub_shelia_s_HbR.png, id=123, 1204.5pt x 602.25pt>
 File: bilder/HbR_Mole/sub_shelia_s_HbR.png Graphic file (type png)
 <use bilder/HbR_Mole/sub_shelia_s_HbR.png>
 Package pdftex.def Info: bilder/HbR_Mole/sub_shelia_s_HbR.png  used on input li
-ne 83.
+ne 75.
 (pdftex.def)             Requested size: 481.79147pt x 240.89572pt.
 
-Overfull \hbox (91.79147pt too wide) in paragraph at lines 83--84
+Overfull \hbox (91.79147pt too wide) in paragraph at lines 75--76
  [][] 
  []
 
 [17 <./bilder/HbR_Mole/sub_jonas_s_HbR.png (PNG copy)> <./bilder/HbR_Mole/sub_l
 ukas_s_HbR.png (PNG copy)>]
-<bilder/HbR_Mole/sub_liao_s_HbR.png, id=145, 1204.5pt x 602.25pt>
+<bilder/HbR_Mole/sub_liao_s_HbR.png, id=128, 1204.5pt x 602.25pt>
 File: bilder/HbR_Mole/sub_liao_s_HbR.png Graphic file (type png)
 <use bilder/HbR_Mole/sub_liao_s_HbR.png>
 Package pdftex.def Info: bilder/HbR_Mole/sub_liao_s_HbR.png  used on input line
- 90.
+ 82.
 (pdftex.def)             Requested size: 481.79147pt x 240.89572pt.
 
-Overfull \hbox (91.79147pt too wide) in paragraph at lines 90--91
+Overfull \hbox (91.79147pt too wide) in paragraph at lines 82--83
  [][] 
  []
 
-<bilder/HbR_Mole/sub_luca2_s_HbR.png, id=146, 1204.5pt x 602.25pt>
+<bilder/HbR_Mole/sub_luca2_s_HbR.png, id=129, 1204.5pt x 602.25pt>
 File: bilder/HbR_Mole/sub_luca2_s_HbR.png Graphic file (type png)
 <use bilder/HbR_Mole/sub_luca2_s_HbR.png>
 Package pdftex.def Info: bilder/HbR_Mole/sub_luca2_s_HbR.png  used on input lin
-e 98.
+e 90.
 (pdftex.def)             Requested size: 481.79147pt x 240.89572pt.
 
-Overfull \hbox (91.79147pt too wide) in paragraph at lines 98--99
+Overfull \hbox (91.79147pt too wide) in paragraph at lines 90--91
  [][] 
  []
 
@@ -748,41 +749,64 @@ Underfull \vbox (badness 6510) has occurred while \output is active []
 
  [18 <./bilder/HbR_Mole/sub_shelia_s_HbR.png (PNG copy)> <./bilder/HbR_Mole/sub
 _liao_s_HbR.png (PNG copy)>]
+<bilder/optode_roi_ink.png, id=133, 845.40843pt x 597.73312pt>
+File: bilder/optode_roi_ink.png Graphic file (type png)
+<use bilder/optode_roi_ink.png>
+Package pdftex.def Info: bilder/optode_roi_ink.png  used on input line 103.
+(pdftex.def)             Requested size: 380.43027pt x 268.97742pt.
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pdf/optode_template_roi.pd
-f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdf/optode_template_roi.pdf, id=150, 341.35529pt x 186.6975pt>
-File: pdf/optode_template_roi.pdf Graphic file (type pdf)
-<use pdf/optode_template_roi.pdf>
-Package pdftex.def Info: pdf/optode_template_roi.pdf  used on input line 114.
-(pdftex.def)             Requested size: 266.25603pt x 145.62346pt.
-File: pdf/atlas_optode_template.pdf Graphic file (type pdf)
-<use pdf/atlas_optode_template.pdf>
-Package pdftex.def Info: pdf/atlas_optode_template.pdf  used on input line 119.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-(pdftex.def)             Requested size: 119.44412pt x 169.0285pt.
-
-Overfull \hbox (83.22803pt too wide) in paragraph at lines 119--120
- [][] 
- []
-
-<bilder/ROI/sub_chang_s_HbO.png, id=151, 1445.4pt x 301.125pt>
+ [19 <./bilder/HbR_Mole/sub_luca2_s_HbR.png (PNG copy)>]
+<bilder/ROI/sub_chang_s_HbO.png, id=137, 1445.4pt x 301.125pt>
 File: bilder/ROI/sub_chang_s_HbO.png Graphic file (type png)
 <use bilder/ROI/sub_chang_s_HbO.png>
-Package pdftex.def Info: bilder/ROI/sub_chang_s_HbO.png  used on input line 129
+Package pdftex.def Info: bilder/ROI/sub_chang_s_HbO.png  used on input line 112
 .
 (pdftex.def)             Requested size: 419.15527pt x 87.324pt.
 
-Overfull \hbox (29.15527pt too wide) in paragraph at lines 129--130
+Overfull \hbox (29.15527pt too wide) in paragraph at lines 112--113
  [][] 
  []
 
-[19 <./bilder/HbR_Mole/sub_luca2_s_HbR.png (PNG copy)> <./pdf/optode_template_r
-oi.pdf>]
-<bilder/ROI/sub_gleb2_s_HbO.png, id=168, 1445.4pt x 301.125pt>
+<bilder/ROI/sub_gleb2_s_HbO.png, id=138, 1445.4pt x 301.125pt>
 File: bilder/ROI/sub_gleb2_s_HbO.png Graphic file (type png)
 <use bilder/ROI/sub_gleb2_s_HbO.png>
-Package pdftex.def Info: bilder/ROI/sub_gleb2_s_HbO.png  used on input line 136
+Package pdftex.def Info: bilder/ROI/sub_gleb2_s_HbO.png  used on input line 118
+.
+(pdftex.def)             Requested size: 419.15527pt x 87.324pt.
+
+Overfull \hbox (29.15527pt too wide) in paragraph at lines 118--119
+ [][] 
+ []
+
+<bilder/ROI/sub_jonas_s_HbO.png, id=139, 1445.4pt x 301.125pt>
+File: bilder/ROI/sub_jonas_s_HbO.png Graphic file (type png)
+<use bilder/ROI/sub_jonas_s_HbO.png>
+Package pdftex.def Info: bilder/ROI/sub_jonas_s_HbO.png  used on input line 124
+.
+(pdftex.def)             Requested size: 419.15527pt x 87.324pt.
+
+Overfull \hbox (29.15527pt too wide) in paragraph at lines 124--125
+ [][] 
+ []
+
+[20 <./bilder/optode_roi_ink.png> <./bilder/ROI/sub_chang_s_HbO.png (PNG copy)>
+ <./bilder/ROI/sub_gleb2_s_HbO.png (PNG copy)>]
+<bilder/ROI/sub_lin_s_HbO.png, id=144, 1445.4pt x 301.125pt>
+File: bilder/ROI/sub_lin_s_HbO.png Graphic file (type png)
+<use bilder/ROI/sub_lin_s_HbO.png>
+Package pdftex.def Info: bilder/ROI/sub_lin_s_HbO.png  used on input line 130.
+(pdftex.def)             Requested size: 419.15527pt x 87.324pt.
+
+Overfull \hbox (29.15527pt too wide) in paragraph at lines 130--131
+ [][] 
+ []
+
+<bilder/ROI/sub_lukas_s_HbO.png, id=145, 1445.4pt x 301.125pt>
+File: bilder/ROI/sub_lukas_s_HbO.png Graphic file (type png)
+<use bilder/ROI/sub_lukas_s_HbO.png>
+Package pdftex.def Info: bilder/ROI/sub_lukas_s_HbO.png  used on input line 136
 .
 (pdftex.def)             Requested size: 419.15527pt x 87.324pt.
 
@@ -790,31 +814,38 @@ Overfull \hbox (29.15527pt too wide) in paragraph at lines 136--137
  [][] 
  []
 
-<bilder/ROI/sub_jonas_s_HbO.png, id=169, 1445.4pt x 301.125pt>
-File: bilder/ROI/sub_jonas_s_HbO.png Graphic file (type png)
-<use bilder/ROI/sub_jonas_s_HbO.png>
-Package pdftex.def Info: bilder/ROI/sub_jonas_s_HbO.png  used on input line 143
-.
+<bilder/ROI/sub_shelia_s_HbO.png, id=146, 1445.4pt x 301.125pt>
+File: bilder/ROI/sub_shelia_s_HbO.png Graphic file (type png)
+<use bilder/ROI/sub_shelia_s_HbO.png>
+Package pdftex.def Info: bilder/ROI/sub_shelia_s_HbO.png  used on input line 14
+2.
 (pdftex.def)             Requested size: 419.15527pt x 87.324pt.
 
-Overfull \hbox (29.15527pt too wide) in paragraph at lines 143--144
+Overfull \hbox (29.15527pt too wide) in paragraph at lines 142--143
  [][] 
  []
 
-<bilder/ROI/sub_lin_s_HbO.png, id=170, 1445.4pt x 301.125pt>
-File: bilder/ROI/sub_lin_s_HbO.png Graphic file (type png)
-<use bilder/ROI/sub_lin_s_HbO.png>
-Package pdftex.def Info: bilder/ROI/sub_lin_s_HbO.png  used on input line 150.
+<bilder/ROI/sub_liao_s_HbO.png, id=147, 1445.4pt x 301.125pt>
+File: bilder/ROI/sub_liao_s_HbO.png Graphic file (type png)
+<use bilder/ROI/sub_liao_s_HbO.png>
+Package pdftex.def Info: bilder/ROI/sub_liao_s_HbO.png  used on input line 149.
+
 (pdftex.def)             Requested size: 419.15527pt x 87.324pt.
 
-Overfull \hbox (29.15527pt too wide) in paragraph at lines 150--151
+Overfull \hbox (29.15527pt too wide) in paragraph at lines 149--150
  [][] 
  []
 
-<bilder/ROI/sub_lukas_s_HbO.png, id=171, 1445.4pt x 301.125pt>
-File: bilder/ROI/sub_lukas_s_HbO.png Graphic file (type png)
-<use bilder/ROI/sub_lukas_s_HbO.png>
-Package pdftex.def Info: bilder/ROI/sub_lukas_s_HbO.png  used on input line 157
+
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+ [21 <./bilder/ROI/sub_jonas_s_HbO.png (PNG copy)> <./bilder/ROI/sub_lin_s_HbO.
+png (PNG copy)> <./bilder/ROI/sub_lukas_s_HbO.png (PNG copy)> <./bilder/ROI/sub
+_shelia_s_HbO.png (PNG copy)>]
+<bilder/ROI/sub_luca2_s_HbO.png, id=151, 1445.4pt x 301.125pt>
+File: bilder/ROI/sub_luca2_s_HbO.png Graphic file (type png)
+<use bilder/ROI/sub_luca2_s_HbO.png>
+Package pdftex.def Info: bilder/ROI/sub_luca2_s_HbO.png  used on input line 157
 .
 (pdftex.def)             Requested size: 419.15527pt x 87.324pt.
 
@@ -822,68 +853,31 @@ Overfull \hbox (29.15527pt too wide) in paragraph at lines 157--158
  [][] 
  []
 
-[20 <./bilder/ROI/sub_chang_s_HbO.png (PNG copy)> <./bilder/ROI/sub_gleb2_s_HbO
-.png (PNG copy)> <./bilder/ROI/sub_jonas_s_HbO.png (PNG copy)> <./bilder/ROI/su
-b_lin_s_HbO.png (PNG copy)>]
-<bilder/ROI/sub_shelia_s_HbO.png, id=175, 1445.4pt x 301.125pt>
-File: bilder/ROI/sub_shelia_s_HbO.png Graphic file (type png)
-<use bilder/ROI/sub_shelia_s_HbO.png>
-Package pdftex.def Info: bilder/ROI/sub_shelia_s_HbO.png  used on input line 16
-4.
-(pdftex.def)             Requested size: 419.15527pt x 87.324pt.
-
-Overfull \hbox (29.15527pt too wide) in paragraph at lines 164--165
- [][] 
- []
-
-<bilder/ROI/sub_liao_s_HbO.png, id=176, 1445.4pt x 301.125pt>
-File: bilder/ROI/sub_liao_s_HbO.png Graphic file (type png)
-<use bilder/ROI/sub_liao_s_HbO.png>
-Package pdftex.def Info: bilder/ROI/sub_liao_s_HbO.png  used on input line 172.
-
-(pdftex.def)             Requested size: 419.15527pt x 87.324pt.
-
-Overfull \hbox (29.15527pt too wide) in paragraph at lines 172--173
- [][] 
- []
-
-<bilder/ROI/sub_luca2_s_HbO.png, id=177, 1445.4pt x 301.125pt>
-File: bilder/ROI/sub_luca2_s_HbO.png Graphic file (type png)
-<use bilder/ROI/sub_luca2_s_HbO.png>
-Package pdftex.def Info: bilder/ROI/sub_luca2_s_HbO.png  used on input line 181
-.
-(pdftex.def)             Requested size: 419.15527pt x 87.324pt.
-
-Overfull \hbox (29.15527pt too wide) in paragraph at lines 181--182
- [][] 
- []
-
-[21 <./bilder/ROI/sub_lukas_s_HbO.png (PNG copy)> <./bilder/ROI/sub_shelia_s_Hb
-O.png (PNG copy)> <./bilder/ROI/sub_liao_s_HbO.png (PNG copy)> <./bilder/ROI/su
-b_luca2_s_HbO.png (PNG copy)>]
-<bilder/HbO_Mole/sub_lin_s_HbO.png, id=181, 1204.5pt x 602.25pt>
+[22 <./bilder/ROI/sub_liao_s_HbO.png (PNG copy)> <./bilder/ROI/sub_luca2_s_HbO.
+png (PNG copy)>]
+<bilder/HbO_Mole/sub_lin_s_HbO.png, id=155, 1204.5pt x 602.25pt>
 File: bilder/HbO_Mole/sub_lin_s_HbO.png Graphic file (type png)
 <use bilder/HbO_Mole/sub_lin_s_HbO.png>
 Package pdftex.def Info: bilder/HbO_Mole/sub_lin_s_HbO.png  used on input line 
-193.
+168.
 (pdftex.def)             Requested size: 421.58131pt x 210.79065pt.
 
-Overfull \hbox (31.58131pt too wide) in paragraph at lines 193--194
+Overfull \hbox (31.58131pt too wide) in paragraph at lines 168--169
  [][] 
  []
 
-<bilder/HbR_Mole/sub_lin_s_HbR.png, id=182, 1204.5pt x 602.25pt>
+<bilder/HbR_Mole/sub_lin_s_HbR.png, id=156, 1204.5pt x 602.25pt>
 File: bilder/HbR_Mole/sub_lin_s_HbR.png Graphic file (type png)
 <use bilder/HbR_Mole/sub_lin_s_HbR.png>
 Package pdftex.def Info: bilder/HbR_Mole/sub_lin_s_HbR.png  used on input line 
-201.
+175.
 (pdftex.def)             Requested size: 421.58131pt x 210.79065pt.
 
-Overfull \hbox (31.58131pt too wide) in paragraph at lines 201--202
+Overfull \hbox (31.58131pt too wide) in paragraph at lines 175--176
  [][] 
  []
 
-) (./chapters/discussion.tex [22 <./bilder/HbO_Mole/sub_lin_s_HbO.png (PNG copy
+) (./chapters/discussion.tex [23 <./bilder/HbO_Mole/sub_lin_s_HbO.png (PNG copy
 )> <./bilder/HbR_Mole/sub_lin_s_HbR.png (PNG copy)>]
 Chapter 4.
 
@@ -892,41 +886,49 @@ Overfull \hbox (0.18633pt too wide) in paragraph at lines 10--11
 f-i-cantly larger
  []
 
-[23
+[24
 
-]) (./chapters/conclusion.tex [24] [25]
+]
+
+LaTeX Warning: Citation `Brand2001' on page 25 undefined on input line 36.
+
+
+LaTeX Warning: Citation `Weder2020' on page 25 undefined on input line 36.
+
+) (./chapters/conclusion.tex [25] [26]
 Chapter 5.
-[26
+[27
 
-]) [27] [28] (./thesis.lof [29
+]) [28] [29] (./thesis.lof [30
 
 ])
 \tf@lof=\write4
 \openout4 = `thesis.lof'.
 
- [30] (./thesis.lot)
+ [31] (./thesis.lot)
 \tf@lot=\write5
 \openout5 = `thesis.lot'.
 
- (./thesis.bbl [31
 
-]
+No file thesis.bbl.
 [32
 
-]) [33] [34
+] [33
 
-] [35
 
 ] (./thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5819 strings out of 492616
- 88606 string characters out of 6129481
- 178744 words of memory out of 5000000
- 9605 multiletter control sequences out of 15000+600000
+ 5809 strings out of 492616
+ 88311 string characters out of 6129481
+ 178406 words of memory out of 5000000
+ 9597 multiletter control sequences out of 15000+600000
  10694 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,15n,45p,1852b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -942,10 +944,10 @@ exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
 ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 /2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (43 pages, 9608364 bytes).
+Output written on thesis.pdf (41 pages, 8913993 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
+ 234 PDF objects out of 1000 (max. 8388607)
+ 139 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
 
