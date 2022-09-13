@@ -3,9 +3,9 @@
 \section{Motivation}
 This research is aimed for better understanding of the brain activities when the subjects are exposed to different audio stimuli with the help of fNIRS measurement.
 
-In the field of neuro-imaging, although fMRI is widely used and provides excellent (spatial) resolution, it still has many limitations, especially when it comes to hearing research. First of all, MRI rooms are noisy, which makes it difficult to control the audio stimulation desired due to inevitable environmental noises. In addition, fMRI scans are done in a magnetic field. It has not yet been proved that pregnant women and infants can be safely exposed to an external magnetic field in the MRI room. For people with hearing disabilities, more specifically cochlear implant patients, going into a MRI room would not be ideal, either. Although there are already cochlear implants that can be worn to a magnetic field, it is still generally not suggested to wear a piece of metal in a MRI room.
+In the field of neuro-imaging, although fMRI is widely used and provides excellent (spatial) resolution, it still has many limitations, especially when it comes to hearing research. First of all, that fact that MRI rooms are noisy makes it difficult to control the audio stimulation desired due to inevitable environmental noises. In addition, fMRI scans are done in a magnetic field. It has not yet been proved that pregnant women and infants can be safely exposed to an external magnetic field in the MRI room. For people with hearing disabilities, more specifically cochlear implant patients, going into a MRI room would not be ideal, either. Although there are already cochlear implants that can be worn to a magnetic field, it is still generally not suggested to wear a piece of metal in a MRI room.
 
-fNIRS,  short for functional near-infrared spectroscopy. With fNIRS, we can measure brain activity by using near-infrared light to estimate cortical hemodynamic activity which occur in response to neural activity. It is non-invasive and risk-free. The fNIRS device is portable and works silently. With the cap secured on the head, it is also more resilient to motion artifacts. All these makes it ideal for hearing researches. However, it is not yet commonly used in clinical diagnostics due to the lack of understanding of the expected brain activities measured with fNIRS. Therefore, in this research, we'd like to perform some fNIRS measurement and analyse the fNRIS data under different experiment conditions.
+fNIRS,  short for functional near-infrared spectroscopy. With fNIRS, we can measure brain activity by using near-infrared light to estimate cortical hemodynamic activities which occur in response to neural activity. It is non-invasive and risk-free. The fNIRS device is portable and works silently. With the cap secured on the head, it is also more resilient to motion artifacts. All these makes it ideal for hearing researches. However, it is not yet commonly used in clinical diagnostics due to the lack of understanding of the expected brain activities measured with fNIRS. Therefore, in this research, we'd like to perform some fNIRS measurement and analyse the fNRIS data under different experiment conditions.
 
 If fNIRS can provide more meaningful data and be more commonly used in early clinical diagnosis, we may find hearing abnormality of patients earlier. This is especially important for infants or children. As language development happens in the early stages of one's life, the sooner we find the hearing abnormality and fix it, the better. After a child turns 8, it is practically not possible for him to understand human speech even with perfect hearing. I personally find hearing research a meaningful topic. For one, speech is the primary and direct way of human communication. We express ourselves and perceive other people's opinion via speech. For the other, music has always been an important part of my life for me personally. Without the ability to hear and listen, neither speech nor music will be possible to be perceived. Therefore, I want to help other people with hearing disabilities get better diagnosis and treatment. fNIRS is of great potential to help solve the issue.
 
@@ -36,14 +36,21 @@ The validity of the above equation depends on how much B varies. \cite {Delpy_19
 
 
 \section{Related Work}
-Delpy: MBLL \\
-A. Duncan: DPF \\
-Weder et al.: main paper \\
-%Weder new 2020 paper: https://www.researchgate.net/publication/338848907_Cortical_fNIRS_Responses_Can_Be_Better_Explained_by_Loudness_Percept_than_Sound_Intensity \\
-Wavelet for MA: https://iopscience.iop.org/article/10.1088/0967-3334/33/2/259/pdf \\
-Sato: extracebrellel components remove\\ 
 
-This project is based on the previous study \cite{Weder2018-qg}. The authors measured their human subjects with fNIRS when the subjects were given different sound stimuli with different sound pressure levels. In their research, the results showed that fNIRS responses originating from auditory processing areas are highly dependent on sound intensity level. More specifically, higher stimulation levels led to higher concentration changes. Caudal and rostral channels showed different waveform morphologies, reflecting specific cortical signal processing of the stimulus. 
+%Delpy: MBLL \\
+%A. Duncan: DPF \\
+%Weder et al.: main paper \\
+%Weder new 2020 paper: https://www.researchgate.net/publication/338848907_Cortical_fNIRS_Responses_Can_Be_Better_Explained_by_Loudness_Percept_than_Sound_Intensity \\
+%Wavelet for MA: https://iopscience.iop.org/article/10.1088/0967-3334/33/2/259/pdf \\
+%Sato: extracebrellel components remove\\ 
+
+Despite the fact that fNIRS has become a popular neuro-imaging method for hearing research, spatial resolution is reduced compared to fMRI and often the exact locations of fNIRS optodes and detailed anatomical information is not known. On top of the limited spatial resolution of fNIRS, the relationship between cortical activation and speech processing is not yet clearly investigated, either. Up till now,  there are no standard fNIRS source-detector locations that are generally accepted as being ideal for capturing the cortical activation in response to speech signals. As a result, many research was done to overcome the issues and hopefully enable fNIRS in more clinical applications.
+
+\cite {Frost1999-vs} conducted a fMRI study and found evidence to prove that language processing is strongly left lateralized in both sexes. \cite {Belin2000} also used fMRI in their study and found out that the superior temporal sulcus (STS) showed greater neuronal activity when subjects listened passively to vocal sounds, whether speech or non-speech, than to non-vocal environmental sounds. \cite {Shader2021} conducted a study with fNIRS. They explored broad and restricted regions of interest that are sensitive to detecting cortical actiation using fNIRS in response to auditory- and visual-only speech. Their results suggested that temporal regions near  Heschl's gyrus may be the most advantageous location in adults for identifying hemodynamic responses to complex auditory speech signals using fNIRS. \cite{Pollonini2013} studied the cortical activation level in response to the speech signals with different levels of intelligibility. fNIRS evidence proved that normal speech evoked the stronger responses within the auditory cortex than distorted speech, and environmental sounds produced the least cortical activation.
+
+
+
+This project is based on the previous study \cite{Weder2018}. The authors measured their human subjects with fNIRS when the subjects were given different sound stimuli with different sound pressure levels. In their research, the results showed that fNIRS responses originating from auditory processing areas are highly dependent on sound intensity level. More specifically, higher stimulation levels led to higher concentration changes. Caudal and rostral channels showed different waveform morphologies, reflecting specific cortical signal processing of the stimulus. 
 
 
 

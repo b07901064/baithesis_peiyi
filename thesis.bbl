@@ -1,0 +1,119 @@
+\begin{thebibliography}{}
+
+\bibitem[Aasted et~al., 2015]{10.1117/1.NPh.2.2.020801}
+Aasted, C.~M., Y{\"u}cel, M.~A., Cooper, R.~J., Dubb, J., Tsuzuki, D., Becerra,
+  L., Petkov, M.~P., Borsook, D., Dan, I., and Boas, D.~A. (2015).
+\newblock {Anatomical guidance for functional near-infrared spectroscopy:
+  AtlasViewer tutorial}.
+\newblock {\em Neurophotonics}, 2(2):020801.
+
+\bibitem[Arridge et~al., 1992]{Arridge_1992}
+Arridge, S.~R., Cope, M., and Delpy, D.~T. (1992).
+\newblock The theoretical basis for the determination of optical pathlengths in
+  tissue: temporal and frequency analysis.
+\newblock {\em Physics in Medicine and Biology}, 37(7):1531--1560.
+
+\bibitem[Belin et~al., 2002]{Belin2002}
+Belin, P., Zatorre, R., and Ahad, P. (2002).
+\newblock Human temporal-lobe response to vocal sounds.
+\newblock {\em Brain research. Cognitive brain research}, 13:17--26.
+
+\bibitem[Belin et~al., 2000]{Belin2000}
+Belin, P., Zatorre, R., Lafaille, P., Ahad, P., and Pike, B. (2000).
+\newblock Voice-selective areas in human auditory cortex.
+\newblock {\em Nature}, 403:309--12.
+
+\bibitem[Chan et~al., 1995]{chanEUROM}
+Chan, D., Fourcin, A., Gibbon, D., Granstrom, B., Hucvale, M., George, K.,
+  Kvale, K., Lamel, L., Lindberg, B., Moreno, A., Mouropoulos, J., and Senia,
+  F. (1995).
+\newblock Eurom - a spoken language resource for the eu.
+\newblock {\em Proc. Eurospeech}, 1.
+
+\bibitem[Delpy et~al., 1988]{Delpy_1988}
+Delpy, D.~T., Cope, M., van~der Zee, P., Arridge, S., Wray, S., and Wyatt, J.
+  (1988).
+\newblock Estimation of optical pathlength through tissue from direct time of
+  flight measurement.
+\newblock {\em Physics in Medicine and Biology}, 33(12):1433--1442.
+
+\bibitem[Dreschler et~al., 2001]{Dreschler}
+Dreschler, W., Herschuure, H., Ludvigsen, C., and Westermann, S. (2001).
+\newblock Icra noises: Artificial noise signals with speech-like spectral and
+  temporal properties for hearing aid assessment.
+\newblock {\em Audiology}, 40:148--157.
+
+\bibitem[Duncan et~al., 1996]{Duncan1996MeasurementOC}
+Duncan, A., Meek, J., Clemence, M., Elwell, C.~E., Fallon, P., Tyszczuk, L.,
+  Cope, M., and Delpy, D.~T. (1996).
+\newblock Measurement of cranial optical path length as a function of age using
+  phase resolved near infrared spectroscopy.
+\newblock {\em Pediatric Research}, 39:889--894.
+
+\bibitem[Frost et~al., 1999]{Frost1999-vs}
+Frost, J.~A., Binder, J.~R., Springer, J.~A., Hammeke, T.~A., Bellgowan, P.~S.,
+  Rao, S.~M., and Cox, R.~W. (1999).
+\newblock Language processing is strongly left lateralized in both sexes.
+  evidence from functional {MRI}.
+\newblock {\em Brain}, 122 ( Pt 2):199--208.
+
+\bibitem[Garnier et~al., 1999]{Brand2001}
+Garnier, S., Micheyl, C., Berger-Vachon, C., and Collet, L. (1999).
+\newblock Effect of signal duration on categorical loudness scaling in normal
+  and in hearing-impaired listeners.
+\newblock {\em Audiology : official organ of the International Society of
+  Audiology}, 38:196--201.
+
+\bibitem[Hall et~al., 2001]{Hall}
+Hall, D., Haggard, M., Summerfield, A., Akeroyd, M., Palmer, A., and Bowtell,
+  R. (2001).
+\newblock Functional magnetic resonance imaging measurements of sound-level
+  encoding in the absence of background scanner noise.
+\newblock {\em The Journal of the Acoustical Society of America}, 109:1559--70.
+
+\bibitem[Huppert et~al., 2009]{Huppert:09}
+Huppert, T.~J., Diamond, S.~G., Franceschini, M.~A., and Boas, D.~A. (2009).
+\newblock Homer: a review of time-series analysis methods for near-infrared
+  spectroscopy of the brain.
+\newblock {\em Appl. Opt.}, 48(10):D280--D298.
+
+\bibitem[J\"{o}bsis, 1977]{doi:10.1126/science.929199}
+J\"{o}bsis, F.~F. (1977).
+\newblock Noninvasive, infrared monitoring of cerebral and myocardial oxygen
+  sufficiency and circulatory parameters.
+\newblock {\em Science}, 198(4323):1264--1267.
+
+\bibitem[Molavi and Dumont, 2012]{Molavi_2012}
+Molavi, B. and Dumont, G.~A. (2012).
+\newblock Wavelet-based motion artifact removal for functional near-infrared
+  spectroscopy.
+\newblock {\em Physiological Measurement}, 33(2):259--270.
+
+\bibitem[Pollonini et~al., 2013]{Pollonini2013}
+Pollonini, L., Olds, C., Abaya, H., Bortfeld, H., Beauchamp, M., and Oghalai,
+  J. (2013).
+\newblock Auditory cortex activation to natural speech and simulated cochlear
+  implant speech measured with functional near-infrared spectroscopy.
+\newblock {\em Hearing research}, 309.
+
+\bibitem[Shader et~al., 2021]{Shader2021}
+Shader, M., Luke, R., Gouailhardou, N., and McKay, C. (2021).
+\newblock The use of broad vs restricted regions of interest in functional
+  near-infrared spectroscopy for measuring cortical activation to auditory-only
+  and visual-only speech.
+\newblock {\em Hearing Research}, 406:108256.
+
+\bibitem[Weder et~al., 2020]{Weder2020}
+Weder, S., Shoushtarian, M., Olivares, V., Zhou, X., Innes-Brown, H., and
+  McKay, C. (2020).
+\newblock Cortical fnirs responses can be better explained by loudness percept
+  than sound intensity.
+\newblock {\em Ear and Hearing}, 41:1.
+
+\bibitem[Weder et~al., 2018]{Weder2018}
+Weder, S., Zhou, X., Shoushtarian, M., Innes-Brown, H., and McKay, C. (2018).
+\newblock Cortical processing related to intensity of a modulated noise
+  stimulus-a functional near-infrared study.
+\newblock {\em J. Assoc. Res. Otolaryngol.}, 19(3):273--286.
+
+\end{thebibliography}
