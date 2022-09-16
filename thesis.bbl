@@ -50,6 +50,12 @@ Duncan, A., Meek, J., Clemence, M., Elwell, C.~E., Fallon, P., Tyszczuk, L.,
   phase resolved near infrared spectroscopy.
 \newblock {\em Pediatric Research}, 39:889--894.
 
+\bibitem[Ferrari and Quaresima, 2012]{Ferrari2012}
+Ferrari, M. and Quaresima, V. (2012).
+\newblock A brief review on the history of human functional near-infrared
+  spectroscopy (fnirs) development and fields of application.
+\newblock {\em NeuroImage}, 63(2):921--935.
+
 \bibitem[Frost et~al., 1999]{Frost1999-vs}
 Frost, J.~A., Binder, J.~R., Springer, J.~A., Hammeke, T.~A., Bellgowan, P.~S.,
   Rao, S.~M., and Cox, R.~W. (1999).
@@ -89,6 +95,12 @@ Molavi, B. and Dumont, G.~A. (2012).
   spectroscopy.
 \newblock {\em Physiological Measurement}, 33(2):259--270.
 
+\bibitem[Mushtaq et~al., 2019]{Musthtaq2019}
+Mushtaq, F., Wiggins, I., Kitterick, P., Anderson, C., and Hartley, D. (2019).
+\newblock Evaluating time-reversed speech and signal-correlated noise as
+  auditory baselines for isolating speech-specific processing using fnirs.
+\newblock {\em PLOS ONE}, 14:e0219927.
+
 \bibitem[Pollonini et~al., 2013]{Pollonini2013}
 Pollonini, L., Olds, C., Abaya, H., Bortfeld, H., Beauchamp, M., and Oghalai,
   J. (2013).
@@ -103,6 +115,12 @@ Shader, M., Luke, R., Gouailhardou, N., and McKay, C. (2021).
   and visual-only speech.
 \newblock {\em Hearing Research}, 406:108256.
 
+\bibitem[Strangman et~al., 2013]{Strangman2013}
+Strangman, G.~E., Li, Z., and Zhang, Q. (2013).
+\newblock Depth sensitivity and source-detector separations for near infrared
+  spectroscopy based on the colin27 brain template.
+\newblock {\em PLOS ONE}, 8(8):1--13.
+
 \bibitem[Weder et~al., 2020]{Weder2020}
 Weder, S., Shoushtarian, M., Olivares, V., Zhou, X., Innes-Brown, H., and
   McKay, C. (2020).
@@ -115,5 +133,19 @@ Weder, S., Zhou, X., Shoushtarian, M., Innes-Brown, H., and McKay, C. (2018).
 \newblock Cortical processing related to intensity of a modulated noise
   stimulus-a functional near-infrared study.
 \newblock {\em J. Assoc. Res. Otolaryngol.}, 19(3):273--286.
+
+\bibitem[Wijayasiri et~al., 2017]{Wijayasir2017}
+Wijayasiri, P., Hartley, D., and Wiggins, I. (2017).
+\newblock Brain activity underlying the recovery of meaning from degraded
+  speech: A functional near-infrared spectroscopy (fnirs) study.
+\newblock {\em Hearing Research}, 351.
+
+\bibitem[Zhou et~al., 2018]{Zhou2018}
+Zhou, X., Seghouane, A.-K., Shah, A., Innes-Brown, H., Cross, W., Litovsky, R.,
+  and McKay, C.~M. (2018).
+\newblock Cortical speech processing in postlingually deaf adult cochlear
+  implant users, as revealed by functional near-infrared spectroscopy.
+\newblock {\em Trends in Hearing}, 22:2331216518786850.
+\newblock PMID: 30022732.
 
 \end{thebibliography}

@@ -24,9 +24,25 @@
 \usepackage{float}
 \usepackage{subfig}
 \usepackage{grffile}
+\usepackage[square]{natbib}
+\usepackage[acronym]{glossaries}
+\usepackage{copyrightbox}
+
+
+
+
+\makeglossaries
+\newacronym{fmri}{fMRI}{functional magnetic resonance imaging}
+\newacronym{fnirs}{fNIRS}{functional near-infrared spectroscopy}
+\newacronym{dpf}{DPF}{differential path length factor}
+\newacronym{sts}{STS}{superior temporal sulcus}
+\newacronym{HbR}{HbR}{deoxygenated hemoglobin}
+\newacronym{HbO}{HbO}{oxygenated hemoglobin}
+\newacronym{sci}{sci}{scalp coupling index}
+\newacronym{icra}{ICRA}{International Collegium for Rehabilitative Audiology}
 
 %\usepackage{ngerman}
-% \usepackage{hyperref}           % PDF links
+\usepackage{hyperref}           % PDF links
 % \usepackage{subfig}             % Subfigures (a), (b), etc
 % \usepackage{nomencl}            % Nomenclature
 
@@ -60,7 +76,7 @@
 
 %%% Acknowledgments (optional)
 \begin{acknowledgments}
-Thanks people!
+Huge thanks to my friends who volunteered and participated in this study.
 \end{acknowledgments}
 
 
@@ -96,10 +112,17 @@ Thanks people!
 
 
 %%% Lists
+\chapter {Acronym}
+\printglossary[type=\acronymtype]
+%\addcontentsline{toc}{chapter}{A. Acronym}
+
+\chapter {\listfigurename}
 \listoffigures{}
-\addcontentsline{toc}{chapter}{\listfigurename}
+%\addcontentsline{toc}{chapter}{B. \listfigurename}
+
+\chapter {\listtablename}
 \listoftables{}
-\addcontentsline{toc}{chapter}{\listtablename}
+%\addcontentsline{toc}{chapter}{C. \listtablename}
 
 
 %%% Bibliography
