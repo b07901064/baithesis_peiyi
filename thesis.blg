@@ -3,44 +3,53 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 The style file: apalike.bst
 Database file #1: other/citation.bib
-You've used 23 entries,
+I was expecting a `,' or a `}'---line 43 of file other/citation.bib
+ : 
+ : @article{Yoshinaga1998,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Delpy1988"
+Warning--empty journal in clark2000first
+Warning--can't use both author and editor fields in Pelphrey2013
+You've used 29 entries,
             1935 wiz_defined-function locations,
-            648 strings with 9381 characters,
-and the built_in function-call counts, 10929 in all, are:
-= -- 1010
-> -- 648
-< -- 3
-+ -- 238
-- -- 232
-* -- 1047
-:= -- 1956
-add.period$ -- 70
-call.type$ -- 23
-change.case$ -- 231
-chr.to.int$ -- 23
-cite$ -- 23
-duplicate$ -- 319
-empty$ -- 654
-format.name$ -- 259
-if$ -- 2057
+            695 strings with 10290 characters,
+and the built_in function-call counts, 13125 in all, are:
+= -- 1226
+> -- 706
+< -- 9
++ -- 258
+- -- 250
+* -- 1222
+:= -- 2333
+add.period$ -- 88
+call.type$ -- 29
+change.case$ -- 269
+chr.to.int$ -- 29
+cite$ -- 31
+duplicate$ -- 412
+empty$ -- 826
+format.name$ -- 283
+if$ -- 2498
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 23
-newline$ -- 119
-num.names$ -- 69
-pop$ -- 181
+missing$ -- 30
+newline$ -- 149
+num.names$ -- 87
+pop$ -- 211
 preamble$ -- 1
-purify$ -- 231
+purify$ -- 270
 quote$ -- 0
-skip$ -- 237
+skip$ -- 312
 stack$ -- 0
-substring$ -- 738
-swap$ -- 23
-text.length$ -- 0
+substring$ -- 910
+swap$ -- 38
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 138
-warning$ -- 0
-while$ -- 72
+type$ -- 172
+warning$ -- 2
+while$ -- 91
 width$ -- 0
-write$ -- 303
+write$ -- 381
+(There was 1 error message)

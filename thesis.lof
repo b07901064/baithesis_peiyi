@@ -2,8 +2,8 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Some Anatomical Terminology. The terms anterior, posterior, superior, and inferior refer to the long axis of the body, which is straight. Therefore, these terms indicate the same direction for both the forebrain and the brainstem. In contrast, the terms dorsal, ventral, rostral, and caudal refer to the long axis of the central nervous system.\relax }}{5}{figure.caption.3}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Probe design from Weder et al.\relax }}{7}{figure.caption.5}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Probe design in this research. Shown in AtlasViewer. The red numbers represent the light sources and the blue numbers represent the dectector. Channels are shown in yellow lines.\relax }}{7}{figure.caption.6}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Probe design from Weder et al. \citeyear {Weder2018}\relax }}{7}{figure.caption.5}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Probe design in this research. Shown in AtlasViewer \citeyear {10.1117/1.NPh.2.2.020801} . The red numbers represent the light sources and the blue numbers represent the dectector. Channels are shown in yellow lines.\relax }}{7}{figure.caption.6}% 
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Manufacturing process of the cap\relax }}{8}{figure.caption.8}% 
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Finished cap on dummy\relax }}{8}{figure.caption.8}% 
 \contentsline {figure}{\numberline {2.3}{\ignorespaces SDgui interface and optode coordinates.\relax }}{8}{figure.caption.7}% 
@@ -13,24 +13,24 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Channel Definition\relax }}{15}{figure.caption.12}% 
 \contentsline {figure}{\numberline {3.2}{\ignorespaces ROI Definition\relax }}{16}{figure.caption.13}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Measurement from participant 3.\relax }}{17}{figure.caption.14}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Measurement from participant 3.\relax }}{17}{figure.caption.15}% 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Measurement from participant 3.\relax }}{18}{figure.caption.16}% 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Measurement from participant 5.\relax }}{19}{figure.caption.17}% 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Measurement from participant 5.\relax }}{19}{figure.caption.18}% 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Measurement from participant 5.\relax }}{20}{figure.caption.19}% 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Measurement from participant 6.\relax }}{21}{figure.caption.20}% 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Measurement from participant 6.\relax }}{21}{figure.caption.21}% 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Measurement from participant 6.\relax }}{22}{figure.caption.22}% 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Measurement from participant 7.\relax }}{23}{figure.caption.23}% 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Measurement from participant 7.\relax }}{23}{figure.caption.24}% 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Measurement from participant 7.\relax }}{24}{figure.caption.25}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces HbO Measurement from participant 3.\relax }}{17}{figure.caption.14}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces HbR Measurement from participant 3.\relax }}{17}{figure.caption.15}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces ROI Measurement from participant 3.\relax }}{18}{figure.caption.16}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces HbO Measurement from participant 5.\relax }}{19}{figure.caption.17}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces HbR Measurement from participant 5.\relax }}{19}{figure.caption.18}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces ROI Measurement from participant 5.\relax }}{20}{figure.caption.19}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces HbO Measurement from participant 6.\relax }}{21}{figure.caption.20}% 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces HbR Measurement from participant 6.\relax }}{21}{figure.caption.21}% 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces ROI Measurement from participant 6.\relax }}{22}{figure.caption.22}% 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces HbO Measurement from participant 7.\relax }}{23}{figure.caption.23}% 
+\contentsline {figure}{\numberline {3.13}{\ignorespaces HbR Measurement from participant 7.\relax }}{23}{figure.caption.24}% 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces ROI Measurement from participant 7.\relax }}{24}{figure.caption.25}% 
 \contentsline {figure}{\numberline {3.15}{\ignorespaces HbO Measurement from participant 4.\relax }}{25}{figure.caption.26}% 
 \contentsline {figure}{\numberline {3.16}{\ignorespaces HbR Measurement from participant 4.\relax }}{25}{figure.caption.27}% 
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Measurement from participant 4.\relax }}{26}{figure.caption.28}% 
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Measurement from participant 8. Silent comparison\relax }}{27}{figure.caption.29}% 
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Measurement from participant 8. Silent comparison\relax }}{27}{figure.caption.30}% 
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Measurement from participant 8. Silent comparision.\relax }}{28}{figure.caption.31}% 
+\contentsline {figure}{\numberline {3.17}{\ignorespaces ROI Measurement from participant 4.\relax }}{26}{figure.caption.28}% 
+\contentsline {figure}{\numberline {3.18}{\ignorespaces HbO Measurement from participant 8. Silent comparison\relax }}{27}{figure.caption.29}% 
+\contentsline {figure}{\numberline {3.19}{\ignorespaces HbR Measurement from participant 8. Silent comparison\relax }}{27}{figure.caption.30}% 
+\contentsline {figure}{\numberline {3.20}{\ignorespaces ROI Measurement from participant 8. Silent comparision.\relax }}{28}{figure.caption.31}% 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Motor and Sensory Regions of the Cerebral Cortex\relax }}{30}{figure.caption.32}% 
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Gyrus\relax }}{34}{figure.caption.33}% 

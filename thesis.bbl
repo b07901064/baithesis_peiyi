@@ -30,6 +30,10 @@ Chan, D., Fourcin, A., Gibbon, D., Granstrom, B., Hucvale, M., George, K.,
 \newblock Eurom - a spoken language resource for the eu.
 \newblock {\em Proc. Eurospeech}, 1.
 
+\bibitem[Clark, 2000]{clark2000first}
+Clark, B.~A. (2000).
+\newblock First-and second-language acquisition in early childhood.
+
 \bibitem[Delpy et~al., 1988]{Delpy_1988}
 Delpy, D.~T., Cope, M., van~der Zee, P., Arridge, S., Wray, S., and Wyatt, J.
   (1988).
@@ -101,12 +105,29 @@ Mushtaq, F., Wiggins, I., Kitterick, P., Anderson, C., and Hartley, D. (2019).
   auditory baselines for isolating speech-specific processing using fnirs.
 \newblock {\em PLOS ONE}, 14:e0219927.
 
+\bibitem[Newport, 1990]{Elissa1990}
+Newport, E.~L. (1990).
+\newblock Maturational constraints on language learning.
+\newblock {\em Cognitive Science}, 14(1):11--28.
+
+\bibitem[Pelphrey, 2013]{Pelphrey2013}
+Pelphrey, K.~A. (2013).
+\newblock {\em Blood-Oxygen-Level-Dependent (BOLD) Signal}, pages 465--466.
+\newblock Springer New York, New York, NY.
+
 \bibitem[Pollonini et~al., 2013]{Pollonini2013}
 Pollonini, L., Olds, C., Abaya, H., Bortfeld, H., Beauchamp, M., and Oghalai,
   J. (2013).
 \newblock Auditory cortex activation to natural speech and simulated cochlear
   implant speech measured with functional near-infrared spectroscopy.
 \newblock {\em Hearing research}, 309.
+
+\bibitem[Robinshaw, 1995]{Robinshaw1995}
+Robinshaw, H.~M. (1995).
+\newblock Early intervention for hearing impairment: Differences in the timing
+  of communicative and linguistic development.
+\newblock {\em British Journal of Audiology}, 29(6):315--334.
+\newblock PMID: 8861408.
 
 \bibitem[Shader et~al., 2021]{Shader2021}
 Shader, M., Luke, R., Gouailhardou, N., and McKay, C. (2021).
@@ -120,6 +141,11 @@ Strangman, G.~E., Li, Z., and Zhang, Q. (2013).
 \newblock Depth sensitivity and source-detector separations for near infrared
   spectroscopy based on the colin27 brain template.
 \newblock {\em PLOS ONE}, 8(8):1--13.
+
+\bibitem[Swinehart, 1962]{BeerLambert}
+Swinehart, D.~F. (1962).
+\newblock The beer-lambert law.
+\newblock {\em Journal of Chemical Education}, 39(7):333.
 
 \bibitem[Weder et~al., 2020]{Weder2020}
 Weder, S., Shoushtarian, M., Olivares, V., Zhou, X., Innes-Brown, H., and
@@ -139,6 +165,11 @@ Wijayasiri, P., Hartley, D., and Wiggins, I. (2017).
 \newblock Brain activity underlying the recovery of meaning from degraded
   speech: A functional near-infrared spectroscopy (fnirs) study.
 \newblock {\em Hearing Research}, 351.
+
+\bibitem[Yoshinaga-Itano et~al., 1998]{Yoshinaga1998}
+Yoshinaga-Itano, C., Sedey, A., Coulter, D., and Mehl, A. (1998).
+\newblock Language of early- and later-identified children with hearing loss.
+\newblock {\em Pediatrics}, 102:1161--71.
 
 \bibitem[Zhou et~al., 2018]{Zhou2018}
 Zhou, X., Seghouane, A.-K., Shah, A., Innes-Brown, H., Cross, W., Litovsky, R.,
