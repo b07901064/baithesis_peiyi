@@ -24,8 +24,9 @@
 \usepackage{float}
 \usepackage{subfig}
 \usepackage{grffile}
-\usepackage[square]{natbib}
-\usepackage[acronym]{glossaries}
+%\usepackage[square]{natbib}
+\usepackage{natbib}
+\usepackage[acronym, nonumberlist]{glossaries}
 \usepackage{copyrightbox}
 
 \numberwithin{equation}{section}
@@ -120,6 +121,7 @@ Huge thanks to my friends who volunteered and participated in this study.
 
 %%% Lists
 \chapter {Acronym}
+%\printglossary[type=main,style=long,nonumberlist]
 \printglossary[type=\acronymtype]
 %\addcontentsline{toc}{chapter}{A. Acronym}
 
@@ -134,6 +136,8 @@ Huge thanks to my friends who volunteered and participated in this study.
 
 %%% Bibliography
 \bibliographystyle{apalike}
+%\bibliographystyle{plain}
+\setcitestyle{authoryear,open={((},close={))}}
 \bibliography{other/citation}
 \nocite{*}
 \addcontentsline{toc}{chapter}{\refname}
