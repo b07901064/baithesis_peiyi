@@ -1,40 +1,47 @@
 \babel@toc {english}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Some Anatomical Terminology. The terms anterior, posterior, superior, and inferior refer to the long axis of the body, which is straight. Therefore, these terms indicate the same direction for both the forebrain and the brainstem. In contrast, the terms dorsal, ventral, rostral, and caudal refer to the long axis of the central nervous system.\relax }}{5}{figure.caption.3}% 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Anatomical terminology. See (B). The terms anterior, posterior, superior, and inferior refer to the long axis of the body, while the terms dorsal, ventral, rostral, and caudal refer to the long axis of the central nervous system. Source: \url {https://www.ncbi.nlm.nih.gov/books/NBK10971/}, visited in September 2022.\relax }}{5}{figure.caption.3}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Probe design from Weder et al. \citeyear {Weder2018}\relax }}{7}{figure.caption.5}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Probe design in this research. Shown in AtlasViewer \citeyear {10.1117/1.NPh.2.2.020801} . The red numbers represent the light sources and the blue numbers represent the dectector. Channels are shown in yellow lines.\relax }}{7}{figure.caption.6}% 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Manufacturing process of the cap\relax }}{8}{figure.caption.8}% 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Finished cap on dummy\relax }}{8}{figure.caption.8}% 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces SDgui interface and optode coordinates.\relax }}{8}{figure.caption.7}% 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Flow Chart of Data Processing\relax }}{11}{figure.caption.9}% 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Age dependence of DPF. From Duncan et al.\relax }}{13}{figure.caption.10}% 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Distribution of SCI values.\relax }}{14}{figure.caption.11}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces SDgui interface and optode coordinates.\relax }}{7}{figure.caption.5}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Probe design from Weder et al. \citeyearpar {Weder2018}\relax }}{8}{figure.caption.6}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Probe design in this research. Shown in AtlasViewer \citeyearpar {10.1117/1.NPh.2.2.020801} . The red numbers represent the light sources and the blue numbers represent the dectector. Channels are shown in yellow lines.\relax }}{8}{figure.caption.7}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Manufacturing process of the cap\relax }}{9}{figure.caption.8}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Finished cap on dummy\relax }}{9}{figure.caption.8}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Flow chart of data processing\relax }}{12}{figure.caption.9}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Age dependence of DPF. Taken rom Duncan et al. \citeyearpar {Duncan1996MeasurementOC} \relax }}{14}{figure.caption.10}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Distribution of SCI values.\relax }}{15}{figure.caption.11}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Channel Definition\relax }}{15}{figure.caption.12}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces ROI Definition\relax }}{16}{figure.caption.13}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces HbO Measurement from participant 3.\relax }}{17}{figure.caption.14}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces HbR Measurement from participant 3.\relax }}{17}{figure.caption.15}% 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces ROI Measurement from participant 3.\relax }}{18}{figure.caption.16}% 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces HbO Measurement from participant 5.\relax }}{19}{figure.caption.17}% 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces HbR Measurement from participant 5.\relax }}{19}{figure.caption.18}% 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces ROI Measurement from participant 5.\relax }}{20}{figure.caption.19}% 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces HbO Measurement from participant 6.\relax }}{21}{figure.caption.20}% 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces HbR Measurement from participant 6.\relax }}{21}{figure.caption.21}% 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces ROI Measurement from participant 6.\relax }}{22}{figure.caption.22}% 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces HbO Measurement from participant 7.\relax }}{23}{figure.caption.23}% 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces HbR Measurement from participant 7.\relax }}{23}{figure.caption.24}% 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces ROI Measurement from participant 7.\relax }}{24}{figure.caption.25}% 
-\contentsline {figure}{\numberline {3.15}{\ignorespaces HbO Measurement from participant 4.\relax }}{25}{figure.caption.26}% 
-\contentsline {figure}{\numberline {3.16}{\ignorespaces HbR Measurement from participant 4.\relax }}{25}{figure.caption.27}% 
-\contentsline {figure}{\numberline {3.17}{\ignorespaces ROI Measurement from participant 4.\relax }}{26}{figure.caption.28}% 
-\contentsline {figure}{\numberline {3.18}{\ignorespaces HbO Measurement from participant 8. Silent comparison\relax }}{27}{figure.caption.29}% 
-\contentsline {figure}{\numberline {3.19}{\ignorespaces HbR Measurement from participant 8. Silent comparison\relax }}{27}{figure.caption.30}% 
-\contentsline {figure}{\numberline {3.20}{\ignorespaces ROI Measurement from participant 8. Silent comparision.\relax }}{28}{figure.caption.31}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Channel Definition\relax }}{16}{figure.caption.12}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces ROI Definition\relax }}{17}{figure.caption.13}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces HbO Measurement from participant 3.\relax }}{18}{figure.caption.14}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces HbR Measurement from participant 3.\relax }}{18}{figure.caption.15}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces ROI Measurement from participant 3.\relax }}{19}{figure.caption.16}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces HbO Measurement from participant 4.\relax }}{20}{figure.caption.17}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces HbR Measurement from participant 4.\relax }}{20}{figure.caption.18}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces ROI Measurement from participant 4.\relax }}{21}{figure.caption.19}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces HbO Measurement from participant 5.\relax }}{22}{figure.caption.20}% 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces HbR Measurement from participant 5.\relax }}{22}{figure.caption.21}% 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces ROI Measurement from participant 5.\relax }}{23}{figure.caption.22}% 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces HbO Measurement from participant 6.\relax }}{24}{figure.caption.23}% 
+\contentsline {figure}{\numberline {3.13}{\ignorespaces HbR Measurement from participant 6.\relax }}{24}{figure.caption.24}% 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces ROI Measurement from participant 6.\relax }}{25}{figure.caption.25}% 
+\contentsline {figure}{\numberline {3.15}{\ignorespaces HbO Measurement from participant 7.\relax }}{26}{figure.caption.26}% 
+\contentsline {figure}{\numberline {3.16}{\ignorespaces HbR Measurement from participant 7.\relax }}{26}{figure.caption.27}% 
+\contentsline {figure}{\numberline {3.17}{\ignorespaces ROI Measurement from participant 7.\relax }}{27}{figure.caption.28}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Motor and Sensory Regions of the Cerebral Cortex\relax }}{30}{figure.caption.32}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Gyrus\relax }}{34}{figure.caption.33}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Motor and sensory regions of the cerebral cortex\relax }}{29}{figure.caption.29}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Gyrus\relax }}{33}{figure.caption.30}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {D.1}{\ignorespaces HbO measurement from participant 1.\relax }}{43}{figure.caption.35}% 
+\contentsline {figure}{\numberline {D.2}{\ignorespaces HbR measurement from participant 1.\relax }}{44}{figure.caption.36}% 
+\contentsline {figure}{\numberline {D.3}{\ignorespaces ROI measurement from participant 1.\relax }}{44}{figure.caption.37}% 
+\contentsline {figure}{\numberline {D.4}{\ignorespaces HbO measurement from participant 2.\relax }}{45}{figure.caption.38}% 
+\contentsline {figure}{\numberline {D.5}{\ignorespaces HbR measurement from participant 2.\relax }}{45}{figure.caption.39}% 
+\contentsline {figure}{\numberline {D.6}{\ignorespaces ROI measurement from participant 2.\relax }}{46}{figure.caption.40}% 
+\contentsline {figure}{\numberline {D.7}{\ignorespaces HbO measurement from participant 8. Silent comparison\relax }}{47}{figure.caption.41}% 
+\contentsline {figure}{\numberline {D.8}{\ignorespaces HbR measurement from participant 8. Silent comparison\relax }}{47}{figure.caption.42}% 
+\contentsline {figure}{\numberline {D.9}{\ignorespaces ROI measurement from participant 8. Silent comparision.\relax }}{48}{figure.caption.43}% 

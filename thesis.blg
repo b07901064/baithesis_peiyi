@@ -10,45 +10,45 @@ I was expecting a `,' or a `}'---line 43 of file other/citation.bib
 I'm skipping whatever remains of this entry
 Warning--empty journal in clark2000first
 Warning--can't use both author and editor fields in Pelphrey2013
-You've used 29 entries,
+You've used 30 entries,
             1935 wiz_defined-function locations,
-            693 strings with 10272 characters,
-and the built_in function-call counts, 13125 in all, are:
-= -- 1226
-> -- 706
+            700 strings with 10540 characters,
+and the built_in function-call counts, 13647 in all, are:
+= -- 1275
+> -- 739
 < -- 9
-+ -- 258
-- -- 250
-* -- 1222
-:= -- 2333
-add.period$ -- 88
-call.type$ -- 29
-change.case$ -- 269
-chr.to.int$ -- 29
-cite$ -- 31
-duplicate$ -- 412
-empty$ -- 826
-format.name$ -- 283
-if$ -- 2498
++ -- 270
+- -- 262
+* -- 1275
+:= -- 2425
+add.period$ -- 91
+call.type$ -- 30
+change.case$ -- 280
+chr.to.int$ -- 30
+cite$ -- 32
+duplicate$ -- 426
+empty$ -- 856
+format.name$ -- 296
+if$ -- 2595
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 30
-newline$ -- 149
-num.names$ -- 87
-pop$ -- 211
+missing$ -- 31
+newline$ -- 154
+num.names$ -- 90
+pop$ -- 220
 preamble$ -- 1
-purify$ -- 270
+purify$ -- 281
 quote$ -- 0
-skip$ -- 312
+skip$ -- 322
 stack$ -- 0
-substring$ -- 910
-swap$ -- 38
+substring$ -- 947
+swap$ -- 39
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 172
+type$ -- 178
 warning$ -- 2
-while$ -- 91
+while$ -- 95
 width$ -- 0
-write$ -- 381
+write$ -- 394
 (There was 1 error message)

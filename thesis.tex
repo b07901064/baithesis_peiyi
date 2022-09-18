@@ -30,24 +30,28 @@
 \usepackage{copyrightbox}
 
 \numberwithin{equation}{section}
-
+\providecommand{\keywords}[1]{\textbf{\textit{Keywords---}} #1}
 
 \makeglossaries
 \newacronym{fmri}{fMRI}{functional magnetic resonance imaging}
 \newacronym{fnirs}{fNIRS}{functional near-infrared spectroscopy}
 \newacronym{cw-nirs}{CW-NIRS}{continuous wave near-infrared spectroscopy}
+\newacronym{fd-nirs}{FD-NIRS}{frequency domain near-infrared spectroscopy}
+\newacronym{td-nirs}{TD-NIRS}{time domain near-infrared spectroscopy}
 \newacronym{dpf}{DPF}{differential path length factor}
 \newacronym{sts}{STS}{superior temporal sulcus}
 \newacronym{HbR}{HbR}{deoxygenated hemoglobin}
 \newacronym{HbO}{HbO}{oxygenated hemoglobin}
-\newacronym{sci}{sci}{scalp coupling index}
+\newacronym{sci}{SCI}{scalp coupling index}
 \newacronym{icra}{ICRA}{International Collegium for Rehabilitative Audiology}
-\newacronym{bold}{BOLD}{Blood-oxygen-level-dependent}
+\newacronym{bold}{BOLD}{blood-oxygen-level-dependent}
 \newacronym{mbll}{mBLL}{modified Beer-Lambert law}
-
-
-
-
+\newacronym{pca}{PCA}{principle component analysis}
+\newacronym{lsl}{LSL}{lab streaming layer}
+\newacronym{prs}{PRS}{phase resolved spectroscopy}
+\newacronym{glm}{GLM}{general linear model}
+\newacronym{roi}{ROI}{region of interest}
+\newacronym{spl}{SPL}{sound pressure level}
 
 %\usepackage{ngerman}
 \usepackage{hyperref}           % PDF links
@@ -75,10 +79,15 @@
 
 %%% Abstract
 \begin{abstract}
-  Write your abstract here or use \textbackslash{}input\{\} command.
+In this study, we sought to determine whether \acrlong{fnirs} (\acrshort{fnirs}), a non-invasive neuroimaging method which is safe to use repeatedly and for extended period of time, can provide an objective measure to the cortical response when subjects are exposed to different levels of sound intensity. Eight normal-hearing subjects, including both biological genders and different races, were included and actively participated in the present study. Measurement data were processed to compute the changes in oxyhemoglobin and deoxyhemoglobin concentration. The resulted waveform morphologies were studied and a regional analysis was conducted. The results were compared with previous studies, mainly the one from Weder et al. \citeyearpar{Weder2018}. Potential reasons to cause the variance from the previous research \citep{Weder2018} were investigated. The feasibility with using fNIRS for neuroimaging in hearing research was once again evaluated. \\
+\newline
 
-  
+\keywords{ \acrlong{fnirs},	cortical responses,	sound intensities , language processing ,	normal-hearing listeners}
+
 \end{abstract}
+
+
+
 \cleardoublepage{}
 
 
@@ -132,6 +141,8 @@ Huge thanks to my friends who volunteered and participated in this study.
 \chapter {\listtablename}
 \listoftables{}
 %\addcontentsline{toc}{chapter}{C. \listtablename}
+
+\input{chapters/appendix}
 
 
 %%% Bibliography
