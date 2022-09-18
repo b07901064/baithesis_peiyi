@@ -1,11 +1,10 @@
 \chapter{Methods}
 \section {Study Participants}
-We measured 8 normal hearing people. Participant 8 was given silent stimuli as a comparison. The detailed information about the subjects are listed in the table.
+We measured eight normal hearing people. Participant 8 was given silent stimuli as a comparison. The detailed information about the subjects are listed in table \ref{table:1}.
 
 \begin{table}[h!]
-  \begin{center}
-    
-    
+   \centering
+
     \begin{tabular}{p{2.3cm} | p{1.5cm} |p{2.5cm} | p{2.8cm} | p{2.1cm} | p{2.2cm}} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
       \textbf{Participant} & \textbf {Gender}& \textbf{Handedness} & \textbf{Race} & \textbf{Hair color} &\textbf {Age (year)}\\ 
       \hline
@@ -18,98 +17,118 @@ We measured 8 normal hearing people. Participant 8 was given silent stimuli as a
       7 &  M & left-handed &  east asian & dark & 23 \\
       8 & M & right-handed  & caucasian & blond & 22 \\
     \end{tabular}
-    \label{tab:table1}
+    
     \caption{Demographic information of the study participants.}
-  \end{center}
-  
+    \label{table:1}
 \end{table}
 
 \section {Probe Design}
 The probes were first designed in AtlasViewer (release v2.11.3 \footnote{\url{https://github.com/BUNPC/AtlasViewer/releases/tag/v2.11.3}})  (see Figure ~\ref{fig:atlas}) \citep {10.1117/1.NPh.2.2.020801} and the SD GUI interface \footnote{a sub GUI of AtlasViewer} (see Figure ~\ref{fig:sdgui}). The probe design was made as close as possible to the research from Weder et al \citeyearpar{Weder2018}. However, several modifications had to be made due to device limitations.
 
-First of all, the paper only provided a rough 2D-sketch of their probe design (see Figure ~\ref{fig:WederProbe}). The channels were not described in detail. Though there are different ways to define the channels, we believe it should not matter as long as the mid-points of the channel correspond to that of the previous research \citep {Weder2018}.
 
-\begin{figure}[H]
-  \centering
-    \includegraphics[scale=.35]{bilder/SDgui.png}
-  \caption{SDgui interface and optode coordinates.}
-  \label{fig:sdgui}
-\end{figure}
 
 \begin{figure}[H]
   \centering
   %\includegraphics[scale= 0.4]{bilder/weder_probe.jpg}
-  \copyrightbox[b]{\includegraphics[scale= 0.4]{bilder/weder_probe.jpg}}{Source: \url{https://link.springer.com/article/10.1007/s10162-018-0661-0}}
+  \copyrightbox[b]{\includegraphics[scale= 0.35]{bilder/weder_probe.jpg}}{Source: \url{https://link.springer.com/article/10.1007/s10162-018-0661-0}}
   \caption{Probe design from Weder et al. \citeyearpar{Weder2018}}
   \label{fig:WederProbe}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-    \includegraphics[scale=.35]{bilder/atlas_probe.png}
-  \caption{Probe design in this research. Shown in AtlasViewer  \citeyearpar {10.1117/1.NPh.2.2.020801} . The red numbers represent the light sources and the blue numbers represent the dectector. Channels are shown in yellow lines.}
+    \includegraphics[scale=.32]{bilder/atlas_probe.png}
+  \caption{Probe design in this research. Original view shown in AtlasViewer. The red numbers represent the light sources and the blue numbers represent the dectector. Channels are shown in yellow lines. For better readability, our channel definition will be shown later in the report in edited picture from AtlasViewer. ~\ref{fig:ChannelDef} }
   \label{fig:atlas}
 \end{figure}
 
 
+First of all, the paper only provided a rough 2D-sketch of their probe design (see Figure ~\ref{fig:WederProbe}). The exact channel positions were not described in detail. Although there are different ways to define the channels, we believe it does not matter as long as the mid-points of the channel correspond to that of the previous research \citep {Weder2018}.
 
-\begin{figure}
+
+
+\begin{figure}[H]
 \centering
 \begin{minipage}[c]{.4\linewidth}
   \centering
-  \includegraphics[scale= 0.05, angle= -90, origin= c]{bilder/IMG_9825.jpg}
+  \includegraphics[scale= 0.06, angle= -90, origin= c]{bilder/IMG_9825.jpg}
   \caption{Manufacturing process of the cap}
   \label{fig:ManufactureCap}
 \end{minipage} \hfill
 \begin{minipage}[c]{.4\linewidth}
   \centering
-  \includegraphics[scale= 0.05, angle= -90, origin= c] {bilder/IMG_9768.jpg}
+  \includegraphics[scale= 0.06, angle= -90, origin= c] {bilder/IMG_9768.jpg}
   \caption{Finished cap on dummy}
   \label{fig:FinishedCap}
 \end{minipage}
 \end{figure}
 
-Due to device limitations, we only measured one side of the brain. According to Frost et al. \citeyearpar {Frost1999-vs} , language processing has been predominantly associated to cortical activity in the left hemisphere. As a result, we decided to focus on the left hemisphere.
+\begin{figure}[H]
+  \centering
+    \includegraphics[scale=.4]{bilder/SDgui.png}
+  \caption{SDgui interface and optode coordinates.}
+  \label{fig:sdgui}
+\end{figure}
+
+
+\begin{figure}[H]
+  \centering
+    \copyrightbox[b]{\includegraphics[scale= 0.4]{bilder/10_10.jpeg}}{Source: \url{https://www.frontiersin.org/articles/10.3389/fnins.2018.00235/full}}
+  \caption{The 10-10 international system of EEG electrode placement. T7 is the left 10\% position between A1 and A2.}
+  \label{fig:tenten}
+\end{figure}
+
+
+Due to device limitations, we only measured one side of the brain. According to Frost et al. \citeyearpar {Frost1999-vs} , language processing has been predominantly associated to cortical activity in the left hemisphere. As a result, we decided to put more focus on the left hemisphere.
 
 The fNIRS device we used also had limited number of sources and detectors. In the original design of Weder et al. \citeyearpar{Weder2018}, 9 sources and 9 detectors were used. However, the device we used had only 10 sources and 8 detectors. Hence, we shifted one channel around T7 a little bit to the left, so that one less detector is needed. At the end, there were 12 long channels and 2 short channels in out setup (see Figure ~\ref{fig:ChannelDef}).
 
-The physical cap was self-made from a swimming cap (see Figure ~\ref {fig:FinishedCap} ~\ref {fig:ManufactureCap}). With the help of a dummy head model, correct positions of the optodes were marked and holes were drilled accordingly. The mounts were put on the cap on the holes. In order to ensure the correct channels length to be fixed exactly at 30 mm, plastic holders were also placed on the long channels. The Brite23 package comes with mounts for short channels. Thus, no plastic holders were needed in the case. The short channels were 11 mm long. The self-made cap turned out to work out well. The contacts between the scalp and the optodes were good thanks to the elastic characteristic of the material.
+The physical cap was self-made from a swimming cap (see Figure ~\ref {fig:FinishedCap} ~\ref {fig:ManufactureCap}). With the help of a dummy head model, correct positions of the optodes were marked and holes were drilled accordingly. The mounts were put on the cap on the holes. In order to ensure the correct channels length to be fixed exactly at 30 mm, plastic holders were also placed on the long channels. The Brite23 package comes with mounts for short channels. Thus, no plastic holders were needed in the case. The short channels were 11 mm long. The self-made cap worked out well. The contacts between the scalp and the optodes were good thanks to the elastic characteristic of the material.
 
 
 
 \section {Acoustic Stimulation during fNIRS Experiment}
-Auditory stimuli were delivered binaurally via an audio metric headphone (Sennheiser HD 650) \footnote {\url{https://www.sennheiser-hearing.com/de-DE/p/hd-650/}}. Stimuli consisted of 20-s chunks of the \acrshort{icra} noise \footnote {The ICRA-Noise has been developed for the International Collegium of Rehabilitative Audiology by the HACTES work group (Hearing Aid Clinical Test Environment standardisation). The purpose was to establish collection of noise signals to be used as background noise in clinical tests of hearing aids and possibly for measuring characteristics of non-linear instruments. Source: \url{https://icra-audiology.org/Repository/icra-noise}} \citep {Dreschler}. 
+Auditory stimuli were delivered binaurally via audiometric headphones (Sennheiser HD 650) \footnote {\url{https://www.sennheiser-hearing.com/de-DE/p/hd-650/}}. Stimuli consisted of 20-s chunks of \acrshort{icra} noise \footnote {The ICRA-Noise has been developed for the International Collegium of Rehabilitative Audiology by the HACTES work group (Hearing Aid Clinical Test Environment standardisation). The purpose was to establish collection of noise signals to be used as background noise in clinical tests of hearing aids and possibly for measuring characteristics of non-linear instruments. Source: \url{https://icra-audiology.org/Repository/icra-noise}} \citep {Dreschler}. 
 
-To begin with, ICRA noise was developed to be used as background noise in clinical tests of hearing aids and possibly for measruing characteristics of non-linear instruments. The signals are based on live English speech from the EUROM database \citep {chanEUROM} in which a female speaker is explaining about the system of arithmetical notation. The speech signals were sampled with a sampling rate of 44.1 kHz. By composing the speech signals with well defined spectral and temporal characteristic, the modified signals have long-term spectrums but are completely unintelligible. 
+To begin with, ICRA noise was developed to be used as background noise in clinical tests of hearing aids and for measuruing characteristics of non-linear instruments. The signals are based on live English speech from the EUROM database \citep {chanEUROM} in which a female speaker is explaining about the system of arithmetical notation. The speech signals were sampled at a sampling rate of 44.1 kHz. By composing the speech signals with well defined spectral and temporal characteristic, the resulting signals have long-term spectrums but are completely unintelligible. 
  
 We chose to use ICRA noise as stimuli based on several reasons. For one, ICRA noise is a broadband amplitude-modulated signal. By selecting a broadband stimulus, broad cortical auditory areas are activated more strongly compared to simple static stimulus, e.g. a pure tone with a fixed amplitude. The bandwidth of auditory stimuli is positively correlated with the mean percentage signal change and spread of cortical activation \citep {Hall}. A previous fMRI study also manifested that more complex auditory stimuli elicit greater response in most parts of the auditory cortex \citep {Belin2002}. For the other, ICRA noise is a well-known and accessible stimulus. It is also considered as an international de facto standard for hearing research. In this way, our results can be directly compared to other research.
  
-As for choosing different sound level pressure, we picked 40 dB, 65 dB, 90 dB, and silent stimulus, i.e. 0 dB. Calibrations were performed using an oscilloscope, a G.R.A.S. Power Module Type 12AK \footnote {\url{https://www.grasacoustics.com/products/power-module/traditional-power-supply-lemo/product/225-12ak}},  and an artificial ear (G.R.A.S. 43AA) \footnote {\url {https://www.grasacoustics.com/products/ear-simulator-kit/traditional-power-supply-lemo/product/238-43aa}}. The artificial ear transform the sound pressure levels (\acrshort{spl}s) into electrical signals, i.e. voltages that can be measured by the oscilloscope. According to the instruction manual of the G.R.A.S. artificial ear, the measured level is 11.19 $[ \frac {mV}{Pa}]$. The SPL in dB is defined as 
+As for choosing different sound pressure levels, we picked 40 dB, 65 dB, 90 dB, and a silent stimulus, i.e. 0 dB. Calibrations were performed using an oscilloscope, a G.R.A.S. Power Module Type 12AK \footnote {\url{https://www.grasacoustics.com/products/power-module/traditional-power-supply-lemo/product/225-12ak}},  and an artificial ear (G.R.A.S. 43AA) \footnote {\url {https://www.grasacoustics.com/products/ear-simulator-kit/traditional-power-supply-lemo/product/238-43aa}}. The artificial ear transform the sound pressure levels (\acrshort{spl}s) into electric signals, i.e. voltages that can be measured by the oscilloscope. According to the instruction manual of the G.R.A.S. artificial ear, the measured level is 11.19 $[ \frac {mV}{Pa}]$. The SPL in dB is defined as 
 \begin{equation}
-SPL [dB] = 20 \cdot log \frac{P}{P_0} \text{ , where $P_0$ is $20 \mu$Pa}
+SPL [dB] = 20 \cdot log \frac{P}{P_0} \text{ , where $P_0$ is $20$  $\mu$Pa}
 \end{equation}
-Hence, the relation between SPL and measured voltage should be.
+Hence, the relation between SPL and measured voltage is given by:
 \begin{equation}
 V = 20{ \mu Pa} \cdot 10^{\frac {SPL}{20}}  \cdot 10^{\frac{Gain}{20}} \cdot 11.19 {\frac {mV}{Pa}} 
 \end{equation}
-The headphone with the artificial ear were setup together in the sound booth to ensure minimal environmental noise. The output voltages were measured with the oscilloscope. This way, the corresponding amplitude inputs for later MATLAB scripts for the desire SPLs can be determined.
+The headphone with the artificial ear were setup together in the soundproof cabin (IAC 350, IAC Acoustics, Winchester, UK) \footnote{\url{https://www.iacl.ie/audiology-booths/the-350-series-maxi-hearing-booth.564.html}} to ensure minimal environmental noise. The output voltages were measured with the oscilloscope. This way, the corresponding amplitude inputs for later MATLAB scripts for the desired SPLs can be determined.
 
-MATLAB (version 2019b) and Oxysoft (version 3.3.33) were used during the measurement. In MATLAB, a chunk in the ICRA audio files was selected. It was multiplied with different amplitude levels for 4 SPLs and ramped with a 10-ms Hanning window. In each epoch, all four stimuli (0dB, 40 dB, 65 dB, and 90 dB) were played randomly once. After each stimulus, there was a 25-s silence rest to wait for the hemodynamic response. For each participant, 8 epochs were conducted. The stimuli were marked with \acrlong{lsl}s \footnote {The lab streaming layer (LSL) is a system for the unified collection of measurement time series in research experiments that handles both the networking, time-synchronization, (near-) real-time access as well as optionally the centralized collection, viewing and disk recording of the data. Source : \url{https://github.com/sccn/labstreaminglayer}} to note which SPL it was. This \acrlong {lsl} also acted as an interface between MATLAB and Oxysoft, so that Oxysoft could mark the time for each stimulus in the measurement data correctly in real time.
+MATLAB (version 2019b) and Oxysoft (version 3.3.33) were used during the measurement. In MATLAB, a chunk in the ICRA audio files was selected. It was multiplied with different amplitude levels to create 4 SPLs and ramped with a 10-ms Hanning window. One epoch consisted of  all four stimuli (0dB, 40 dB, 65 dB, and 90 dB) that were played once in a random order. After each stimulus, there was a 25-s silence to wait for the hemodynamic response. For each participant, 8 epochs were measured. The stimuli were marked with \acrlong{lsl}s \footnote {The lab streaming layer (LSL) is a system for the unified collection of measurement time series in research experiments that handles both the networking, time-synchronization, (near-) real-time access as well as optionally the centralized collection, viewing and disk recording of the data. Source : \url{https://github.com/sccn/labstreaminglayer}} to note which SPL it was. This \acrlong {lsl} also acted as an interface between MATLAB and Oxysoft, so that Oxysoft could mark the time for each stimulus in the measurement data correctly in real time.
 
+\newpage 
 \section {fNIRS Setup}
-The Brite23 \footnote {\url{https://neurolite.ch/sites/default/files/Brite23\%20Brochure_0.pdf}} was used as the fNIRS device in this research. It is light weight, has 10 sources and 8 detectors and can support up to 23 channels. The Brite23 fNIRS device was connected via bluetooth to the PC and the Oxysoft software. For each measurement, the DPF was calculated depending on the age of the participant. The sampling rate was fixed at 50 Hz, for enough resolution but not unnecessarily large in terms of data size.
+The Brite23 \footnote {\url{https://neurolite.ch/sites/default/files/Brite23\%20Brochure_0.pdf} \\ visited in September 2022} was used as the fNIRS device in this research. It is light weight, has 10 sources and 8 detectors and can support up to 23 channels. The Brite23 fNIRS device was connected via bluetooth to the PC and the Oxysoft software. For each measurement, the DPF was calculated depending on the age of the participant. The sampling rate for the fNIRS device was fixed at 50 Hz, for enough resolution but not unnecessarily large in terms of data size.
 
-After the settings in the Oxysoft software were done, the participant were asked to put on the self-made cap. On each optode position, the hair would be put aside gently with a Q-tip to ensure better contact between the optodes and the scalp. Then, the participants would be asked to put on the headphone and go into the sound-attenuating booth. The participants were also asked to keep the eyes closed and keep the head still to ensure minimum interference from visual stimulation and motion.
-
-
-\section {Data preprocesing}
-Data preprocessing and analysis was executed in MATLAB (Mathworks, USA) and the Homer3 toolbox. The following steps were executed.
+After the settings in the Oxysoft software were done, the participant was asked to put on the self-made cap. On each optode position, the hair was put aside gently with a Q-tip to ensure better contact between the optodes and the scalp. Then, the participant was asked to put on the headphone and go into the soundproof cabin. The participant was also asked to keep the eyes closed and keep the head still to ensure minimum interference from visual stimulation and motion.
 
 \begin{figure}[H]
   \centering
-    \includegraphics[scale=.9]{pdf/flowchart2.pdf}
-  \caption{Flow chart of data processing}
-  \label{fig:somesignal}
+    \copyrightbox[b]{\includegraphics[scale=.3]{bilder/Brite23}}%
+           {Source: \url{https://neurolite.ch/sites/default/files/Brite23\%20Brochure_0.pdf}\\ visited in September 2022}
+     \caption{fNIRS Device: Brite23}
+  \label{fig:flowchart}
+\end{figure}
+
+
+\section {Data Procesing}
+Data preprocessing and analysis was executed in MATLAB (Mathworks, USA) and the Homer3 toolbox. The following steps (see Figure ~\ref{fig:flowchart}) were executed.
+
+\begin{figure}[H]
+  \centering
+    \includegraphics[scale=.95]{pdf/flowchart2.pdf}
+  \caption{Flow chart of data processing steps}
+  \label{fig:flowchart}
 \end{figure}
 
 
