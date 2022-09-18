@@ -6,7 +6,7 @@
 \contentsline {chapter}{\numberline {2}Methods}{6}{chapter.2}% 
 \contentsline {section}{\numberline {2.1}Study Participants}{6}{section.2.1}% 
 \contentsline {section}{\numberline {2.2}Probe Design}{6}{section.2.2}% 
-\contentsline {section}{\numberline {2.3}Acoustic Stimulation during fNIRS Experiment}{11}{section.2.3}% 
+\contentsline {section}{\numberline {2.3}Acoustic Stimulation during fNIRS Experiment}{10}{section.2.3}% 
 \contentsline {section}{\numberline {2.4}fNIRS Setup}{13}{section.2.4}% 
 \contentsline {section}{\numberline {2.5}Data Procesing}{14}{section.2.5}% 
 \contentsline {chapter}{\numberline {3}Results}{18}{chapter.3}% 
@@ -20,7 +20,7 @@
 \contentsline {section}{\numberline {4.3}Device Limitation and fNIRS Testing Conditions}{29}{section.4.3}% 
 \contentsline {section}{\numberline {4.4}Data Processing}{30}{section.4.4}% 
 \contentsline {section}{\numberline {4.5}Loudness Perception}{31}{section.4.5}% 
-\contentsline {section}{\numberline {4.6}Intelligibility of the Audio Stimuli}{31}{section.4.6}% 
+\contentsline {section}{\numberline {4.6}Intelligibility of the Auditory Stimuli}{31}{section.4.6}% 
 \contentsline {section}{\numberline {4.7}Language Processing in Human Brains}{31}{section.4.7}% 
 \contentsline {section}{\numberline {4.8}Laterality of Brain Activation}{32}{section.4.8}% 
 \contentsline {section}{\numberline {4.9}Depth and Location of Cortical Response}{32}{section.4.9}% 

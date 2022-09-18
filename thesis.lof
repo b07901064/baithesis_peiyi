@@ -3,11 +3,11 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Anatomical terminology.\relax }}{5}{figure.caption.3}% 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Probe design from Weder et al. \citeyearpar {Weder2018}\relax }}{7}{figure.caption.5}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Probe design in this research. Original view shown in AtlasViewer. The red numbers represent the light sources and the blue numbers represent the dectector. Channels are shown in yellow lines. For better readability, our channel definition will be shown later in the report in edited picture from AtlasViewer. ~\ref {fig:ChannelDef} \relax }}{7}{figure.caption.6}% 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Manufacturing process of the cap\relax }}{8}{figure.caption.7}% 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Finished cap on dummy\relax }}{8}{figure.caption.7}% 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces SDgui interface and optode coordinates.\relax }}{9}{figure.caption.8}% 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces The 10-10 international system of EEG electrode placement. T7 is the left 10\% position between A1 and A2 through the central Cz.\relax }}{10}{figure.caption.9}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Probe design in this research. The original view is shown here in AtlasViewer. The red numbers represent the light sources and the blue numbers represent the detector. Channels are shown in yellow lines. For better readability, our channel definition will be shown later in the report in another edited picture (Figure ~\ref {fig:ChannelDef}) from AtlasViewer. \relax }}{7}{figure.caption.6}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The 10-10 international system of EEG electrode placement. T7 is the left 10\% position between A1 and A2 through the central Cz.\relax }}{8}{figure.caption.7}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces SDgui interface and optode coordinates.\relax }}{9}{figure.caption.8}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Manufacturing process of the cap\relax }}{10}{figure.caption.9}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Finished cap on dummy\relax }}{10}{figure.caption.9}% 
 \contentsline {figure}{\numberline {2.7}{\ignorespaces fNIRS Device: Brite23\relax }}{13}{figure.caption.10}% 
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Flow chart of data processing steps\relax }}{14}{figure.caption.11}% 
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Age dependence of DPF. Taken rom Duncan et al. \citeyearpar {Duncan1996MeasurementOC} \relax }}{16}{figure.caption.12}% 
